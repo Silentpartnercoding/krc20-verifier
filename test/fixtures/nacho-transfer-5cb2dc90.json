@@ -1,0 +1,66 @@
+{
+ "subnetwork_id": "0000000000000000000000000000000000000000",
+ "transaction_id": "5cb2dc90ed3ab9a20e35c1348609db1e96d0887beaa663a905560768b987c751",
+ "hash": "9587d2689f65cd24ac205985ef3899dde5a9d4873828bc92cfeba5fb03a41b56",
+ "mass": "3295",
+ "payload": "7b2270223a226b72632d3230222c226f70223a227472616e73666572222c227469636b223a226e6163686f222c22616d74223a22323838393337313234313439222c22746f223a226b617370613a717a656e7630717563616b6c347368353034786b6579613976796a32677967686a6c3834746a30387130373739683368673063666a326e7a6663727667227d",
+ "block_hash": [
+  "116c09899da061c3322fc5c2a17e763a78a1d92440ab14cac646d394094b6714",
+  "6472ef9906272b81fa8533194750f312ecbccac61c4b38d2d40d704cbbc0c002",
+  "a6fdc6c464154d141a242e2f49768b9f02217e62a1d053cd6257959dfa03a1fe",
+  "a7040f067aff3011bab313697b0286ceccf9e6018817681c5aecbb310fd581b2",
+  "fad7adca0d32fd1178afdcf645e45dd92a789b81ccf17f7fe59b97ca28d5f3c9"
+ ],
+ "block_time": 1792494300077,
+ "version": 0,
+ "is_accepted": true,
+ "accepting_block_hash": "7362f14675049cd036028447a2560ee9d59e4ec9b3cc8765a1bb2dc841e56ad4",
+ "accepting_block_blue_score": 568701400,
+ "accepting_block_time": 1792494300781,
+ "inputs": [
+  {
+   "transaction_id": "5cb2dc90ed3ab9a20e35c1348609db1e96d0887beaa663a905560768b987c751",
+   "index": 0,
+   "previous_outpoint_hash": "b3c27a00d7138cff68337027ba84aa30f28910f80edc48930c59a7879f4d5d9a",
+   "previous_outpoint_index": "1",
+   "previous_outpoint_address": "kaspa:qpr9uuwngk82t4quhysa6kqxkf2k8pnpqwtdpgtexrk8s49mlw0g5cdt394h5",
+   "previous_outpoint_amount": 69234115839,
+   "signature_script": "41864d5d578737f6f09ded36d04a126f8e730bec18c12c54118b473147bd1406d787a4dcaf9040a7b7111be2cf5d98c23e01f917ea14f755cd6de6dc29c79edefa01",
+   "sig_op_count": "1",
+   "compute_budget": 0
+  },
+  {
+   "transaction_id": "5cb2dc90ed3ab9a20e35c1348609db1e96d0887beaa663a905560768b987c751",
+   "index": 1,
+   "previous_outpoint_hash": "b3c27a00d7138cff68337027ba84aa30f28910f80edc48930c59a7879f4d5d9a",
+   "previous_outpoint_index": "0",
+   "previous_outpoint_address": "kaspa:qpr9uuwngk82t4quhysa6kqxkf2k8pnpqwtdpgtexrk8s49mlw0g5cdt394h5",
+   "previous_outpoint_amount": 200000000,
+   "signature_script": "4154c9b74f7cf92c693b51de0ce4d9d4c8d983fffb64b2a65fcd50cdf06600d89a386dc54bf529df0e13ed7dd4294100e711ee8512aa7b8de764fe1fd3177d1b4301",
+   "sig_op_count": "1",
+   "compute_budget": 0
+  }
+ ],
+ "outputs": [
+  {
+   "transaction_id": "5cb2dc90ed3ab9a20e35c1348609db1e96d0887beaa663a905560768b987c751",
+   "index": 0,
+   "amount": 200000000,
+   "script_public_key": "20465e71d3458ea5d41cb921dd5806b2556386610396d0a17930ec7854bbfb9e8aac",
+   "script_public_key_address": "kaspa:qpr9uuwngk82t4quhysa6kqxkf2k8pnpqwtdpgtexrk8s49mlw0g5cdt394h5",
+   "script_public_key_type": "pubkey",
+   "covenant_authorizing_input": null,
+   "covenant_id": null
+  },
+  {
+   "transaction_id": "5cb2dc90ed3ab9a20e35c1348609db1e96d0887beaa663a905560768b987c751",
+   "index": 1,
+   "amount": 69233591839,
+   "script_public_key": "20465e71d3458ea5d41cb921dd5806b2556386610396d0a17930ec7854bbfb9e8aac",
+   "script_public_key_address": "kaspa:qpr9uuwngk82t4quhysa6kqxkf2k8pnpqwtdpgtexrk8s49mlw0g5cdt394h5",
+   "script_public_key_type": "pubkey",
+   "covenant_authorizing_input": null,
+   "covenant_id": null
+  }
+ ]
+}

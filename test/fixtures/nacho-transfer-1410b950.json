@@ -1,0 +1,45 @@
+{
+ "subnetwork_id": "0000000000000000000000000000000000000000",
+ "transaction_id": "1410b950176cb50355e79c3fbfb2cbaa49b2d2469e8aed7283a4054ae3dec480",
+ "hash": "981e0acc165671c12f6358f24360445f2a80bc5e06dd430d53f73a7217991204",
+ "mass": "1820",
+ "payload": null,
+ "block_hash": [
+  "d2957fd7e2c80692efade5c2d2f88dc0fc6c31bd8ae910af3032ece394d1807b",
+  "7df60cc9ae609ea116f9ba004336b098dc9df9d4eb5e3be44d3cbdbbac019551",
+  "0377c73438bd636ba5f45c1012f34f49b2f006c1f900d7d50f75613b3c4c7cdf",
+  "f465b9889bc9f07bba20849f332a44d4b3aba1b31904a42ff7a4a9277a80a641"
+ ],
+ "block_time": 1755419835928,
+ "version": 0,
+ "is_accepted": true,
+ "accepting_block_hash": "fd16e2623741ab53acb23c76fd82fb39434483aad2e3f9c18348c7c9b334479c",
+ "accepting_block_blue_score": 198295402,
+ "accepting_block_time": 1755419836451,
+ "inputs": [
+  {
+   "transaction_id": "1410b950176cb50355e79c3fbfb2cbaa49b2d2469e8aed7283a4054ae3dec480",
+   "index": 0,
+   "previous_outpoint_hash": "6c02ddf2756aacba6baf374097a67c2d021e084d9a3f32694bf7310e0d2542a0",
+   "previous_outpoint_index": "0",
+   "previous_outpoint_address": "kaspa:pqxazs99k6d9h3h03846teck8sejh5rq7n348vf2el9xwerdea5t766teq43p",
+   "previous_outpoint_amount": 300010000,
+   "signature_script": "4119f21c5fa716d4d32a26b69cb8414e8c08855123d690ee73273b4d8a07b8f730dd381e278322c8917fedd88101968edadfdf414576e9c3f4c27b5556e7ca273d014cc220d0a1c21478505015d2727440fe9f3f6fe3d7894e46507c4fb1a7d8095ffa895fac0063076b6173706c6578004c927b2270223a226b72632d3230222c226f70223a227472616e73666572222c227469636b223a226e6163686f222c22746f223a226b617370613a717970366676796c71706632327a396d3477323637366b3832636e396532393037673366347a76656d6c377972367335727938743839673275757a6a656637222c22616d74223a22313334393830303030303030303030227d68",
+   "sig_op_count": "1",
+   "compute_budget": null,
+   "covenant_id": null
+  }
+ ],
+ "outputs": [
+  {
+   "transaction_id": "1410b950176cb50355e79c3fbfb2cbaa49b2d2469e8aed7283a4054ae3dec480",
+   "index": 0,
+   "amount": 300000000,
+   "script_public_key": "20d0a1c21478505015d2727440fe9f3f6fe3d7894e46507c4fb1a7d8095ffa895fac",
+   "script_public_key_address": "kaspa:qrg2rss50pg9q9wjwf6ypl5l8ah784uffer9qlz0kxnasz2ll2y47eg46guy8",
+   "script_public_key_type": "pubkey",
+   "covenant_authorizing_input": null,
+   "covenant_id": null
+  }
+ ]
+}

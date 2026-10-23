@@ -1,0 +1,42 @@
+{
+ "subnetwork_id": "0000000000000000000000000000000000000000",
+ "transaction_id": "b23fc278c56330fbf435a88ab5eb5591fb7635149ced45b652ed6222d03ef873",
+ "hash": "dce0f6e0c89c725be042cac13ead4940f0e08735a5161653d661fce2db664a4c",
+ "mass": "1821",
+ "payload": null,
+ "block_hash": [
+  "3a236ae550836f32f432b9a76c6759762f9c513feabecaf1748473f7225210c4"
+ ],
+ "block_time": 1726413310678,
+ "version": 0,
+ "is_accepted": true,
+ "accepting_block_hash": "7ffba515009d6d1c69fdae6e580bf3d99f102b6d2ae3d7e52493e46fd2b7dae9",
+ "accepting_block_blue_score": 88495017,
+ "accepting_block_time": 1726413311522,
+ "inputs": [
+  {
+   "transaction_id": "b23fc278c56330fbf435a88ab5eb5591fb7635149ced45b652ed6222d03ef873",
+   "index": 0,
+   "previous_outpoint_hash": "6485aacff2df89ccf8546e102f8959fe5b14a8d8817ab41a54ab777da4c0694d",
+   "previous_outpoint_index": "0",
+   "previous_outpoint_address": "kaspa:ppt5rvtswa7s8msr9dyasjjw5erclf3nn20z3s2z8yjuzm24j37xx2rn2pux8",
+   "previous_outpoint_amount": 1648666414,
+   "signature_script": "4167e426ec753aa0f8450c29bfff9d37639580f69ada5195923d58ee1b47686be1c8eb9e14313bbffe871f53a4e9bb9a395a2d8ab12e04fc0e04647ac8a5bad6da014cc3200dee55c4dfe8fc6db9eb11004e03c336270f3c25b9559540fb84329e865ae9c6ac0063076b6173706c65785100004c917b22616d74223a2231313438303030303030303030303030222c226f70223a227472616e73666572222c2270223a226b72632d3230222c227469636b223a226e6163686f222c22746f223a226b617370613a717a33346c613975366e74646467356a79686a70796a7065656d79666b6d6b777164396365647979677136383335387761767875327378656472617339227d68",
+   "sig_op_count": "1",
+   "compute_budget": null,
+   "covenant_id": null
+  }
+ ],
+ "outputs": [
+  {
+   "transaction_id": "b23fc278c56330fbf435a88ab5eb5591fb7635149ced45b652ed6222d03ef873",
+   "index": 0,
+   "amount": 500000000,
+   "script_public_key": "200dee55c4dfe8fc6db9eb11004e03c336270f3c25b9559540fb84329e865ae9c6ac",
+   "script_public_key_address": "kaspa:qqx7u4wyml50cmdeavgsqnsrcvmzwreuyku4t92qlwzr985xtt5uvgcx4kzjm",
+   "script_public_key_type": "pubkey",
+   "covenant_authorizing_input": null,
+   "covenant_id": null
+  }
+ ]
+}

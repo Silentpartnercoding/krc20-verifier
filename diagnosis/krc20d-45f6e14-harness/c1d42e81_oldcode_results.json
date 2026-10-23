@@ -1,0 +1,3221 @@
+[
+{
+"tid": "04c36356b9f2a3694de3f6e6eba62d23cad357df9d72cc7b05a02230734e6876",
+"tick": "KPAW",
+"nin": 1,
+"nout": 1,
+"fee": 660989137,
+"A": "OP from=kaspa:qp8ycu9quvhstyhzxzfewu2h7fa5hfvrk69y7nztcnprdtzrrhw35psjvn5zs to=kaspa:qp8ycu9quvhstyhzxzfewu2h7fa5hfvrk69y7nztcnprdtzrrhw35psjvn5zs tick=KPAW fee=660989137 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1439007698 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"660989137"
+],
+"sigLen": 158,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "04f467818954b5380a744dd6a461f4ad8527b7b5bcb7cf00d328d2e19c1ccfad",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 110285684,
+"A": "OP from=kaspa:qpuane454crj79rhyzaqjz47v7wqz8set6gjnndvggskd6r02sheky8s56zl2 to=kaspa:qpuane454crj79rhyzaqjz47v7wqz8set6gjnndvggskd6r02sheky8s56zl2 tick=NACHO fee=110285684 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=74222265332 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"110285684"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "116a257fd581c1cc46ec99cc70a1dd469113e481199015cad0991dd1776c7935",
+"tick": "KPAW",
+"nin": 1,
+"nout": 1,
+"fee": 107429148,
+"A": "OP from=kaspa:qqastnww6gzq66wuwa2kqhzd6yt8e3pd20wu0sujehda4qfxcfnpwwcx3vwr6 to=kaspa:qqastnww6gzq66wuwa2kqhzd6yt8e3pd20wu0sujehda4qfxcfnpwwcx3vwr6 tick=KPAW fee=107429148 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=15147509868 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"107429148"
+],
+"sigLen": 157,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "0556d6c93af55bc13a03902fc588c73223de072ab899ae74ec5e53aedb852acd",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 214072440,
+"A": "OP from=kaspa:qqwjcjggcv9jdv89pcv3g28593eaukpnh6kdtrt984ca4escuvx2y8gv2xxq6 to=kaspa:qqwjcjggcv9jdv89pcv3g28593eaukpnh6kdtrt984ca4escuvx2y8gv2xxq6 tick=NACHO fee=214072440 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=68931325680 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"214072440"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "1209ed717ad88faf1e2aac6970d1103556bf8991b6a7c9196b1c781c55513b6e",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 116313495,
+"A": "OP from=kaspa:qz3e76gvrh07kzhk9gs5wnj4tw4trvw0ujpavh2r38nu52859ljp24aluc57w to=kaspa:qz3e76gvrh07kzhk9gs5wnj4tw4trvw0ujpavh2r38nu52859ljp24aluc57w tick=NACHO fee=116313495 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=106077907440 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"116313495"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "074ee96317fe2147adc1f63021003e9b6c248d1f7db5e4b3f3794fe0fbc0e0e0",
+"tick": "KASPER",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qzl6kwwerdn3z33j9uuvhhhe0pwcnlwxje2enzltwy82hy7d3rjljt2cf28up to=kaspa:qzl6kwwerdn3z33j9uuvhhhe0pwcnlwxje2enzltwy82hy7d3rjljt2cf28up tick=KASPER fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=38600000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"-1",
+"mint finished",
+"100000000"
+],
+"sigLen": 159,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "179e7440df55951e633e9d681117d9186b8d91f3e2c5a411dd236c4be48373d3",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 146221472,
+"A": "OP from=kaspa:qp599fzcy59x4kkgxescx9ezp7zjz8202s9wwnn0lf37e66nugtycxyahfzrr to=kaspa:qp599fzcy59x4kkgxescx9ezp7zjz8202s9wwnn0lf37e66nugtycxyahfzrr tick=NACHO fee=146221472 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1462214720 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"146221472"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "1ddc0063916a72e986eabc0f1ebc582f81e5fa89ccae7a2f22409936bfd2f29a",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qrj2h8vf7j3q8wnnxhsqk5t6nhmy7jvhwvjp6fn0hfdsaye0r0x3wpsj0uf25 to=kaspa:qrj2h8vf7j3q8wnnxhsqk5t6nhmy7jvhwvjp6fn0hfdsaye0r0x3wpsj0uf25 tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=10900000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "1a175e9f996fbd26482fe10681373f77098c68e91752c79f766a53b7055cfa8f",
+"tick": "KCATS",
+"nin": 1,
+"nout": 1,
+"fee": 119973328,
+"A": "OP from=kaspa:qps0grgwygd4vhmemjgae5ack4gqv8596sh5c7mq7qcdp9g8qddhys3t68mq4 to=kaspa:qps0grgwygd4vhmemjgae5ack4gqv8596sh5c7mq7qcdp9g8qddhys3t68mq4 tick=KCATS fee=119973328 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=10917572848 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"119973328"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "1a192681b17a9cdaa21912c20515eaee8e52cb39d30c5d4133f77325f9635f78",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 105001500,
+"A": "OP from=kaspa:qprjny5num2amccdhwdkyeg4fz60hjdnpt4cprfcuw0zv8s9h4akkv5m20r9z to=kaspa:qprjny5num2amccdhwdkyeg4fz60hjdnpt4cprfcuw0zv8s9h4akkv5m20r9z tick=NACHO fee=105001500 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=7770111000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"105001500"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "154e2a645dde486e80eaa3dafe2cf43446f383e4ef7be3327364d5157ade717e",
+"tick": "KPAW",
+"nin": 1,
+"nout": 1,
+"fee": 600000000,
+"A": "OP from=kaspa:qqhk303dzhx0kqk65ztmjk7p93w23t7u5k8nnfl0scwws2dts2dn68ctlkyyt to=kaspa:qqhk303dzhx0kqk65ztmjk7p93w23t7u5k8nnfl0scwws2dts2dn68ctlkyyt tick=KPAW fee=600000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=399600000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"600000000"
+],
+"sigLen": 157,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "004cc6c624cc20923119fd2faaa5e1be429ec7462306e2382026298b76056306",
+"tick": "KPAW",
+"nin": 1,
+"nout": 1,
+"fee": 170773490,
+"A": "OP from=kaspa:qre8mfgqresq2rvyt8xhmqgsmznqq3nunnze8202656g57a6l2jds8cpnw98k to=kaspa:qre8mfgqresq2rvyt8xhmqgsmznqq3nunnze8202656g57a6l2jds8cpnw98k tick=KPAW fee=170773490 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1929223345 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"170773490"
+],
+"sigLen": 158,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "10f5046246f8bf254591af45920fe9e813090aadb5a5361be9f3213379bbe7ba",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qqxrtpqmg557eumntry9x2yrkpvd0s2pupv9wfv7qw8f6kmsgvwvsykaju6m0 to=kaspa:qqxrtpqmg557eumntry9x2yrkpvd0s2pupv9wfv7qw8f6kmsgvwvsykaju6m0 tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1999996835 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "455e7fd6e8f43bc57df8fb1ed8fe6353321627296c687d4c28a975ef90fc5588",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 163998888,
+"A": "OP from=kaspa:qr3x060a0ztq6ny7f033qnncr68yl9he0ecvkv30uqwck9x3jkh9ug5u5h4dn to=kaspa:qr3x060a0ztq6ny7f033qnncr68yl9he0ecvkv30uqwck9x3jkh9ug5u5h4dn tick=NACHO fee=163998888 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1935997947 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"163998888"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "46315e052e62fcb97c7bce5d0a6747313926372fe16b55f4ee42f53e2f2405f3",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 117645050,
+"A": "OP from=kaspa:qq2uzjtjshh97vmwmwk9v0pakdezstje7tygeevg7mph0zndfwu5sly0lf8av to=kaspa:qq2uzjtjshh97vmwmwk9v0pakdezstje7tygeevg7mph0zndfwu5sly0lf8av tick=NACHO fee=117645050 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=104586449450 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"117645050"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "466d1801d145b43ce50416ffaf2d930c92cf347052934ba2c5494d6d03d33130",
+"tick": "KASPER",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qq8p8qylq3kzv8xtdu4z60nnquaf47q9exlz4guk44dj5z0nnsuvxrqhkwefz to=kaspa:qq8p8qylq3kzv8xtdu4z60nnquaf47q9exlz4guk44dj5z0nnsuvxrqhkwefz tick=KASPER fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=37300000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"-1",
+"mint finished",
+"100000000"
+],
+"sigLen": 159,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "47028e59686bb9af225451fff78006a1f989f7436e2cddfa740f2a769a52fffe",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 227531534,
+"A": "OP from=kaspa:qpv668rmdgwxyw0kssu3lt2qcm3k5qga2zlvlj6z5etyf372ea09uyp6xev64 to=kaspa:qpv668rmdgwxyw0kssu3lt2qcm3k5qga2zlvlj6z5etyf372ea09uyp6xev64 tick=NACHO fee=227531534 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1872465301 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"227531534"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "4f8ec2c7188823a7e7d8954c83779f7d19c5362b0283373335a9a2e1353f4c3e",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 125000000,
+"A": "OP from=kaspa:qzdmss8azjtjss42x26n20mr5xxgrqrkcg0g5mh73q0ljumpwfh355rveshff to=kaspa:qzdmss8azjtjss42x26n20mr5xxgrqrkcg0g5mh73q0ljumpwfh355rveshff tick=NACHO fee=125000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=125875000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"125000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "4f983166991b28c2baa911ec35405972ac2b99519a00385b123c1c06bb355fb4",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 171564739,
+"A": "OP from=kaspa:qqpj2ynt386x7c5p2jp488m6e524pg450mffak95ytfzf7uv7m5g5fcp5677q to=kaspa:qqpj2ynt386x7c5p2jp488m6e524pg450mffak95ytfzf7uv7m5g5fcp5677q tick=NACHO fee=171564739 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=102767278661 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"171564739"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "50dc74b1f2360766d8d12c7e6f7d3a9e478cdcaa88af14fcf952c86511a1657e",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qpmpcjq63cpndusj3e5spftlnyqg08s2m94v45cef0jg7v55ajpdv2gyu3vgc to=kaspa:qpmpcjq63cpndusj3e5spftlnyqg08s2m94v45cef0jg7v55ajpdv2gyu3vgc tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=46000000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "51dad802453b7e8d1becd80be75bb5d70c33cd0da16c84fbf3944f9cd92b3d57",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 107000000,
+"A": "OP from=kaspa:qzaxn70ma0wpl50acxet2yd5fgzwevcnnqzttcs8j9uf2e69wkdr7q93gjyul to=kaspa:qzaxn70ma0wpl50acxet2yd5fgzwevcnnqzttcs8j9uf2e69wkdr7q93gjyul tick=NACHO fee=107000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=39269000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"107000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "525106f4f22e2b6075b7bb1aa0f83749bee10da7c82a30d5de356aa8577f150e",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 200000000,
+"A": "OP from=kaspa:qqlkhztmcw4sxtfdxagujgyxsncxfslm2mllegcs6rxwnq74l3llzvzkehvqd to=kaspa:qqlkhztmcw4sxtfdxagujgyxsncxfslm2mllegcs6rxwnq74l3llzvzkehvqd tick=NACHO fee=200000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1453800000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"200000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "5260c72a20bd77587d02f35bbde0171ab3e882a7641624319e940e0eca21d233",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100080076,
+"A": "OP from=kaspa:qrs2ks0ug0xt8t0e5th0r32snqxzc2qdv8j09est9rh27pd29gsdkjvdc8jzr to=kaspa:qrs2ks0ug0xt8t0e5th0r32snqxzc2qdv8j09est9rh27pd29gsdkjvdc8jzr tick=NACHO fee=100080076 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1999917877 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100080076"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "52967be0764e05656ca74aeb4d94808c50d66106335d2ee51af1060afd6aca26",
+"tick": "PPKAS",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qpzxehnj85lsadkgcpvsmgkd7gcquan50rxhr3eqckkucdhqjphpyg0lzwu65 to=kaspa:qpzxehnj85lsadkgcpvsmgkd7gcquan50rxhr3eqckkucdhqjphpyg0lzwu65 tick=PPKAS fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=400000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "52efc8b7b9fcce73ba7051415ac412391b2534793675f830e52560a543533db3",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 223733662,
+"A": "OP from=kaspa:qzs2rcv8e95en0492z233ckg0d5zxts79p5adet7fl7xtxtn7qxpu4xmvl0nq to=kaspa:qzs2rcv8e95en0492z233ckg0d5zxts79p5adet7fl7xtxtn7qxpu4xmvl0nq tick=NACHO fee=223733662 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=59960621416 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"223733662"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "530ab7cfd0e09275469e48b5c709a8fb8189429b39a0a168428f1893d53886d2",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 110000000,
+"A": "OP from=kaspa:qzwv2rs3uv0rd3l43j8udar58lfmlhkq8jj2wshvv47g4fjg527r5ujcyh34w to=kaspa:qzwv2rs3uv0rd3l43j8udar58lfmlhkq8jj2wshvv47g4fjg527r5ujcyh34w tick=NACHO fee=110000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=16940000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"110000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "533a58abcb6822959b4e9f97a8ad800f1842db3ef7159f77b34ecc9fa073f279",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 101300000,
+"A": "OP from=kaspa:qq22teh4acuna9zxglm0rcy630apwsl327eupnk00k8ewjxd47jsua504tl9w to=kaspa:qq22teh4acuna9zxglm0rcy630apwsl327eupnk00k8ewjxd47jsua504tl9w tick=NACHO fee=101300000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=74455500000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"101300000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "55ef0ca8053ee97bbc26072238dec5e3325e91778597c8c39e69829d3f6e21d6",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 147396139,
+"A": "OP from=kaspa:qz7gc6qgffpgfdewvsktz0y4sla55sep0y89h4re7vjfrd02xcy6k983cdz42 to=kaspa:qz7gc6qgffpgfdewvsktz0y4sla55sep0y89h4re7vjfrd02xcy6k983cdz42 tick=NACHO fee=147396139 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1621357529 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"147396139"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "5634a244003fbeb9205d342cc1ba04f76c2852de1640b109db52fc0e23ac2bb8",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 190000000,
+"A": "OP from=kaspa:qp8fsjm4kay5uvzqacl69x9jzswefg0dqnyxpae5kyezns24ww0n2v9svz0l4 to=kaspa:qp8fsjm4kay5uvzqacl69x9jzswefg0dqnyxpae5kyezns24ww0n2v9svz0l4 tick=NACHO fee=190000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=570000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"190000000"
+],
+"sigLen": 156,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "5691048a58da1a0b12a4f14eed8a386d7ef595643a6e3fdd1e6deeb9c8d3d55e",
+"tick": "KASPER",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qr080lzxumg8lhz3ls2m8cm0efykata9hkyw2ma848xc50rgs0ajwwrpks6nh to=kaspa:qr080lzxumg8lhz3ls2m8cm0efykata9hkyw2ma848xc50rgs0ajwwrpks6nh tick=KASPER fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=61700000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"-1",
+"mint finished",
+"100000000"
+],
+"sigLen": 159,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "56d01f92d5f094117f6774f74becc2b4dce6ccc5a43356484c233f8f0724a939",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 116185313,
+"A": "OP from=kaspa:qrx77mm27w52cuqgl6asxrna8kmyxx20vghfgzhugwyqc3gshldy22wzntxnc to=kaspa:qrx77mm27w52cuqgl6asxrna8kmyxx20vghfgzhugwyqc3gshldy22wzntxnc tick=NACHO fee=116185313 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=80400236596 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"116185313"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "57bd7997a35faeb384ae9786cdd3bbfaf3133d31f9409013a58139bde2b58ccd",
+"tick": "KPAW",
+"nin": 1,
+"nout": 1,
+"fee": 660989137,
+"A": "OP from=kaspa:qp8ycu9quvhstyhzxzfewu2h7fa5hfvrk69y7nztcnprdtzrrhw35psjvn5zs to=kaspa:qp8ycu9quvhstyhzxzfewu2h7fa5hfvrk69y7nztcnprdtzrrhw35psjvn5zs tick=KPAW fee=660989137 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1669438114 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"660989137"
+],
+"sigLen": 158,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "59b36f5d198ec2e38c7bb57b7044251399fe66b562af58ab7cc1a693bb13b6fb",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 114000292,
+"A": "OP from=kaspa:qqrsqhgzkx2k0mvpfxtrtnjavc86zzysxgepyaund28sc2v9tcz0s4naxewmv to=kaspa:qqrsqhgzkx2k0mvpfxtrtnjavc86zzysxgepyaund28sc2v9tcz0s4naxewmv tick=NACHO fee=114000292 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=37848096944 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"114000292"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "5c12d8b1b94c60f2da72d0fa272190544e5026ab591ac4ea6d08217c87278695",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qrxv89ur2fnvh45g6m69wqkd00dr2x6wzmltw8u2efy0uauwkdftusa8w2lxs to=kaspa:qrxv89ur2fnvh45g6m69wqkd00dr2x6wzmltw8u2efy0uauwkdftusa8w2lxs tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1999996835 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "5cf95581cd30476973dafa29526592b34b2827975269bacd22d932123db2023e",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 120000000,
+"A": "OP from=kaspa:qpvhvrakg2czcu5phrlayetegtu8n8nlxzm67ylndw544xyxmg8266hsgfv0l to=kaspa:qpvhvrakg2czcu5phrlayetegtu8n8nlxzm67ylndw544xyxmg8266hsgfv0l tick=NACHO fee=120000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=490440000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"120000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "5dde44401d3b82add37eae86e399d2f4f94fe510f4acd230bea824ba8a0f68a8",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 113532763,
+"A": "OP from=kaspa:qzan49qm24kn4xq8gt63la5wu36gt2wfzldu8eqsuvsrx2ywp0fcxpa7649h7 to=kaspa:qzan49qm24kn4xq8gt63la5wu36gt2wfzldu8eqsuvsrx2ywp0fcxpa7649h7 tick=NACHO fee=113532763 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=15440455768 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"113532763"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "66c476cf433ed429a0b6ae15cd970528e3ac4e9a783e373d80e948f1088b370b",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 176806903,
+"A": "OP from=kaspa:qpsjhpxuvarwch73qfnhwx32t24lkqnawr58a3f6dmmlp8r4p3kz7jwl89tcn to=kaspa:qpsjhpxuvarwch73qfnhwx32t24lkqnawr58a3f6dmmlp8r4p3kz7jwl89tcn tick=NACHO fee=176806903 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=99188672583 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"176806903"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "673467230f8dfa9fb9c743060b52df25b8dfa47d69fbd491b44bf48aec2cc27a",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qz3hckh330enrd0ujqpqdkvdcnsjra8uukgd7gcfnjghp7r08jxw72mlsd8pg to=kaspa:qz3hckh330enrd0ujqpqdkvdcnsjra8uukgd7gcfnjghp7r08jxw72mlsd8pg tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=91400000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "6b7de76e2d6491fb751fc7da05ed80f08b6ca98f1324d52d16b9e41984b8e321",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qz2wf5rccdqjyu9xnwga3tsdh7ez67e74m3fh4l6p39pqstq6gnhqzu5t85qy to=kaspa:qz2wf5rccdqjyu9xnwga3tsdh7ez67e74m3fh4l6p39pqstq6gnhqzu5t85qy tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=3300000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "6c5bea8def07cbaec75bbb87fca54a97cd92bc5220f1aee79b62d783fbb66c03",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 120000000,
+"A": "OP from=kaspa:qz8fvvg3gxc569xsysyk40ne58ya9y8m3zxe7g788apvj36jwypfwfxg3dg86 to=kaspa:qz8fvvg3gxc569xsysyk40ne58ya9y8m3zxe7g788apvj36jwypfwfxg3dg86 tick=NACHO fee=120000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=211680000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"120000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "6e825b5f91a2d1194f92a6e15b678d23ce95ed8c3025e9a546942a0cd98b8138",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qryl59lckl50aqeyft8t5q8q68mkrwgd7cwzp02yyerlq7dp7vnxjcvtgpdpf to=kaspa:qryl59lckl50aqeyft8t5q8q68mkrwgd7cwzp02yyerlq7dp7vnxjcvtgpdpf tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=47800000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "72500d7beef8dcd7976c21511b709cc8425df7ed0853d433ca091f3b128e4607",
+"tick": "PEPE",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qqt8m6xh7crlrx045pxshmf6l30jejd5mw6ms8xhxpfk4xarp7gn7cqycsffp to=kaspa:qqt8m6xh7crlrx045pxshmf6l30jejd5mw6ms8xhxpfk4xarp7gn7cqycsffp tick=PEPE fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=87500000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 157,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "73c783407602dd182070035036f09714339964c86ea10ca21ae83e85cb2caa5d",
+"tick": "KASPER",
+"nin": 1,
+"nout": 1,
+"fee": 70282687,
+"A": "OP from=kaspa:qzy5f9wdym3q4xgmvwpywu83pxq06j60gq6zzh0a8zrgre89nz2rz6543069z to=kaspa:qzy5f9wdym3q4xgmvwpywu83pxq06j60gq6zzh0a8zrgre89nz2rz6543069z tick=KASPER fee=70282687 -> stored as reject: fee not enough",
+"B": "DROP fee: amountIn=0 <= amountOut=2024631658 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"-1",
+"fee not enough",
+"70282687"
+],
+"sigLen": 160,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "7585c5339e9c98f80098b146560fefd03598b544e3597d3451dcfbde6ec186b9",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qr7a7zhe94npp28dgw4u9hcg7xkv27n2hhrzq39jrdyaqld9k4z9s77qqe8rt to=kaspa:qr7a7zhe94npp28dgw4u9hcg7xkv27n2hhrzq39jrdyaqld9k4z9s77qqe8rt tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=50200000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "76943d62a64c70524d5afbeda7dad407ce0d908e602601f9beb6cc77b3bb1b85",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 107135938,
+"A": "OP from=kaspa:qqgx9r66qv9t2rmd9agzzhvnp9l0yy4gj0yx0sfu2mthv37mcslay2n3jw6fy to=kaspa:qqgx9r66qv9t2rmd9agzzhvnp9l0yy4gj0yx0sfu2mthv37mcslay2n3jw6fy tick=NACHO fee=107135938 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=10285050048 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"107135938"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "7768a0464c5fd6c44b9597e41780ed84842c8db69a861e2b8eb0790cf2495c6f",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 105001000,
+"A": "OP from=kaspa:qqunltvx3s3rl856yx5acvla5wac0w0c5djt79drrhlp69rhx05lkc36txfz2 to=kaspa:qqunltvx3s3rl856yx5acvla5wac0w0c5djt79drrhlp69rhx05lkc36txfz2 tick=NACHO fee=105001000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=8715083000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"105001000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "7805bc595466ea4561df11854c7e0fe4489a95b7ee76b9e837465a335329e67c",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qznufrdy4st59g68qxmkmp30xwnggc97gw6f7qgqj0tdv3eceq5sqent7k3pj to=kaspa:qznufrdy4st59g68qxmkmp30xwnggc97gw6f7qgqj0tdv3eceq5sqent7k3pj tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1999996835 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "785d20df9d2a456bc6e0fa332cfdf3cc76decd4a86a68f063aa1626dc0f11fa0",
+"tick": "KASPER",
+"nin": 1,
+"nout": 1,
+"fee": 121000000,
+"A": "OP from=kaspa:qrct4pum4w6mpvwxk6ykmhp7lwjf9devrezlemtruqkchqyxe9h95damuypef to=kaspa:qrct4pum4w6mpvwxk6ykmhp7lwjf9devrezlemtruqkchqyxe9h95damuypef tick=KASPER fee=121000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=67518000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"-1",
+"mint finished",
+"121000000"
+],
+"sigLen": 159,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "78a000455f5c66207e4ddb4fd8b92c1a332db4a867a56fbb6423860d40b05f3f",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 162100000,
+"A": "OP from=kaspa:qpm2axykg9a442v2802g6j4hslkajvyuj2rq0t85a38uyn0xg6g3jfy4jfcfw to=kaspa:qpm2axykg9a442v2802g6j4hslkajvyuj2rq0t85a38uyn0xg6g3jfy4jfcfw tick=NACHO fee=162100000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=350136000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"162100000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "79bb2716fbd5583da03020b7aa964bf6e01c8926bc8d598dce7e2632398f28a3",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 164200000,
+"A": "OP from=kaspa:qq9dmzhuc4yy7hpp8m4dzzgzsaysupxkwmdwvv58uu4c7zxndhgn2hhxh5khk to=kaspa:qq9dmzhuc4yy7hpp8m4dzzgzsaysupxkwmdwvv58uu4c7zxndhgn2hhxh5khk tick=NACHO fee=164200000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=47453800000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"164200000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "7b4e9f6ae9a5411c0424eb8f4d8089afcba877c16a923675d1d2521d13852d6e",
+"tick": "KASPER",
+"nin": 1,
+"nout": 1,
+"fee": 154933830,
+"A": "OP from=kaspa:qrdgwzh9xd8mfucyskf2jj3flpcrpqjg6swmq6slrxjk2e5mq2lcvegfjdwpc to=kaspa:qrdgwzh9xd8mfucyskf2jj3flpcrpqjg6swmq6slrxjk2e5mq2lcvegfjdwpc tick=KASPER fee=154933830 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=309867660 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"-1",
+"mint finished",
+"154933830"
+],
+"sigLen": 159,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "7c90b3ed5d9e5da5632109a3a28382ee4d36432adb23a978cfd1dc367bb62c3b",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 172433483,
+"A": "OP from=kaspa:qpthtsgglxt7wq3vjwfh0rtssxcfgt80xmus62kms0djftpggh3w5uryek95r to=kaspa:qpthtsgglxt7wq3vjwfh0rtssxcfgt80xmus62kms0djftpggh3w5uryek95r tick=NACHO fee=172433483 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=2931369211 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"172433483"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "7cc64b9f704171e2480a47f4eb523a374d8421ddf27f06cc96521f4bfee2c3ee",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qznwganaaccetntzcclx6cwjral3hrkm0mus95whwxg6p2gc2sp46dx23ljgm to=kaspa:qznwganaaccetntzcclx6cwjral3hrkm0mus95whwxg6p2gc2sp46dx23ljgm tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=16000000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "7dabed8edcaecc199cdc0bc2d097cb0bd8df0fd578a06ad4a8943a6a2dab94f5",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 160000000,
+"A": "OP from=kaspa:qqwu9v5jyctseujj27khe3v98fkgay5kz4407zy884p4pguj3tjwguklqhadp to=kaspa:qqwu9v5jyctseujj27khe3v98fkgay5kz4407zy884p4pguj3tjwguklqhadp tick=NACHO fee=160000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=37600000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"160000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "7dda34e2e8619f9c6644ac541f120ca260e97993aa56c10c474389e74cc82736",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qpfjxl73at47dmdwdp5zuvw3u5fgq954drqne9qwd95nv3h869gdcdg5fr724 to=kaspa:qpfjxl73at47dmdwdp5zuvw3u5fgq954drqne9qwd95nv3h869gdcdg5fr724 tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=32600000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "80d736ba74376ea909ff4e2ae849b7e6178bffd1f3ac71345876c12acbed4795",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100096846,
+"A": "OP from=kaspa:qr08qfv4veqtwvxzcw964q9tn70ne70n0gzsf5j4cgjzxtytvrdwuwk76m0ms to=kaspa:qr08qfv4veqtwvxzcw964q9tn70ne70n0gzsf5j4cgjzxtytvrdwuwk76m0ms tick=NACHO fee=100096846 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=39903154 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"NOT FOUND"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "8126caa82f483c99d8a0f6d6a97c1f853e9f9cc29c9f600d506d4ba05cece173",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 108000000,
+"A": "OP from=kaspa:qru5tne72u0ug2ymqpudfdtqvgpau25m8sum2u54w66ce8dk4f22z4xkt80m5 to=kaspa:qru5tne72u0ug2ymqpudfdtqvgpau25m8sum2u54w66ce8dk4f22z4xkt80m5 tick=NACHO fee=108000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=98604000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"108000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "82aedd53ff1f23862d67afe958e635d681c858a40c1f1794e23dfdf0ff316daf",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 136000000,
+"A": "OP from=kaspa:qz2qhsrpv5gaykcf2v7jw9xz6qycdy0jur96zhgt4narkmpjngyjsz6lvuqqd to=kaspa:qz2qhsrpv5gaykcf2v7jw9xz6qycdy0jur96zhgt4narkmpjngyjsz6lvuqqd tick=NACHO fee=136000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=20400000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"136000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "82edcec3cfe66c2ad1ed00841bfc93843c9f03153b73d0c7b069135e55376ce6",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 130000000,
+"A": "OP from=kaspa:qzwsew5zjskc8azhmzp6mcycdsqmmv2ksha5at2vn7cs49qlkee7ju0ylcq8x to=kaspa:qzwsew5zjskc8azhmzp6mcycdsqmmv2ksha5at2vn7cs49qlkee7ju0ylcq8x tick=NACHO fee=130000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=17030000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"130000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "83f50f69b3c1bf42e063ca4b2b4fd9375b6fb5a7403568fac3104b1028f97c33",
+"tick": "KPAW",
+"nin": 1,
+"nout": 1,
+"fee": 171333143,
+"A": "OP from=kaspa:qpmveqfeefhmjtgjcvt2wjr5xep4ld06xxsyqz74xfs8qwsakrsvjz39suvep to=kaspa:qpmveqfeefhmjtgjcvt2wjr5xep4ld06xxsyqz74xfs8qwsakrsvjz39suvep tick=KPAW fee=171333143 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=7709991435 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"171333143"
+],
+"sigLen": 157,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "867242a52f343e737bb72dcbe8ebd7415071ebb79b2f555ccf35518dbd88b1bc",
+"tick": "KASPER",
+"nin": 1,
+"nout": 1,
+"fee": 215977293,
+"A": "OP from=kaspa:qq49ctvs4u26w0pfdmv7muxvfelefqxx80lwjq0x422zasff3fp3s69865e4d to=kaspa:qq49ctvs4u26w0pfdmv7muxvfelefqxx80lwjq0x422zasff3fp3s69865e4d tick=KASPER fee=215977293 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=10582887357 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"-1",
+"mint finished",
+"215977293"
+],
+"sigLen": 159,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "8762d925ef4348bc93db92053390b6eac0d2accd433e085c6ce52f188aea2ffc",
+"tick": "KASPER",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qp78mu67g3ary553n43nygglqz5gwfq4xmcq2l96gyd8qaj7cq3uu0gqek4ra to=kaspa:qp78mu67g3ary553n43nygglqz5gwfq4xmcq2l96gyd8qaj7cq3uu0gqek4ra tick=KASPER fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=85200000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"-1",
+"mint finished",
+"100000000"
+],
+"sigLen": 159,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "87a2ae7ef9527db39beb5a1ba9f722cf5e1eb6ef52e35501b9e5fa3e5d1f82ee",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 118721091,
+"A": "OP from=kaspa:qz430g8ndys282pas97ckuajfp7nfvmr4r4w5yjrdcy8vnzwmzgdj49xv6g7m to=kaspa:qz430g8ndys282pas97ckuajfp7nfvmr4r4w5yjrdcy8vnzwmzgdj49xv6g7m tick=NACHO fee=118721091 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=50931348039 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"118721091"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "8b6d6928b093e10600c7ebb6ed6e0c244a08eaee7251ca33902430c0aff3e051",
+"tick": "KASPER",
+"nin": 1,
+"nout": 1,
+"fee": 192356245,
+"A": "OP from=kaspa:qqpdw5tpktju2v8s9yhahuexpuc5vn37e8mypq373uevdhmmdq8nu7f0r80u5 to=kaspa:qqpdw5tpktju2v8s9yhahuexpuc5vn37e8mypq373uevdhmmdq8nu7f0r80u5 tick=KASPER fee=192356245 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=42895442635 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"-1",
+"mint finished",
+"192356245"
+],
+"sigLen": 159,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "8d5adf5920aef98e856608ca8c9f0b31a5a32e259e35d37163864592bbb41b86",
+"tick": "KASPER",
+"nin": 1,
+"nout": 1,
+"fee": 300000000,
+"A": "OP from=kaspa:qzlgn2t4sqp72yzjy5zc3edvwmphzav3aen69an7vfgcnln9kpl5ctrxuta99 to=kaspa:qzlgn2t4sqp72yzjy5zc3edvwmphzav3aen69an7vfgcnln9kpl5ctrxuta99 tick=KASPER fee=300000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=309000000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"-1",
+"mint finished",
+"300000000"
+],
+"sigLen": 159,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "8fcf9c167a906607c546dda1669fff248060b963c319e947bc5e79ecfa198343",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 137959624,
+"A": "OP from=kaspa:qzlzvhw63phqndqpc78c6p2tn3cxyslanykq59uwdj2fsaelunusspqkc5rn7 to=kaspa:qzlzvhw63phqndqpc78c6p2tn3cxyslanykq59uwdj2fsaelunusspqkc5rn7 tick=NACHO fee=137959624 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=251086515680 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"137959624"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "9015826212bd21137b965547a5614cdd74411c8ae632875d4975f84367a8309a",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qq8dsxpwy0mp7amm6cwcqjtkzaddnawx36z2ys09cr48uzjq4yq4k0lav88v7 to=kaspa:qq8dsxpwy0mp7amm6cwcqjtkzaddnawx36z2ys09cr48uzjq4yq4k0lav88v7 tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1800000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "91eb46bc228ed58d74506a2e7bc8e931360ac8eaed24253901841e72d5636bd3",
+"tick": "KASTOR",
+"nin": 1,
+"nout": 1,
+"fee": 160218584,
+"A": "OP from=kaspa:qqqaflmj46ymgpmq26dcewf99zzfwwn4vsnvhyw4yv7z6fwcgcx0glyqzm9ut to=kaspa:qqqaflmj46ymgpmq26dcewf99zzfwwn4vsnvhyw4yv7z6fwcgcx0glyqzm9ut tick=KASTOR fee=160218584 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1939778251 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"160218584"
+],
+"sigLen": 160,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "931649fd067b500bfc2463201cfde7dcd9038a57333a400cbb58182018fd72dd",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 220642996,
+"A": "OP from=kaspa:qqnks7slclse43k62n3dunukh6yytn8heh2sqm00u3skvnr5pdfyq0sy40ylm to=kaspa:qqnks7slclse43k62n3dunukh6yytn8heh2sqm00u3skvnr5pdfyq0sy40ylm tick=NACHO fee=220642996 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=23167514580 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"220642996"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "97427212c389ca4c6068a02f6c84c7b3928caf80a2ba38396d04746821d9c274",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 130000000,
+"A": "OP from=kaspa:qz4gya8qxsjs6jma3es5au84gpjykd45tfh5lhnzq43pwnhm6mjd6d6mgtvwv to=kaspa:qz4gya8qxsjs6jma3es5au84gpjykd45tfh5lhnzq43pwnhm6mjd6d6mgtvwv tick=NACHO fee=130000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=37960000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"130000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "974a0294e9f3340c7c8f05cef78d8c7397c212d6066611d1064df2b632b900a5",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qz7kfsnjl055nsgwyl96u2h8fzhcrww6vy33xpvcr3602prauddskelchq090 to=kaspa:qz7kfsnjl055nsgwyl96u2h8fzhcrww6vy33xpvcr3602prauddskelchq090 tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=43200000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "9a6eb980fb686dbc14d00c68eb78599853f84fcba60f3f14e4698121fa0b4d20",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 142267567,
+"A": "OP from=kaspa:qp2vx4mupq83n5juatxvnnv3qmjgyrqgp8a4enugccmjjy0dt6st60d6hg9h6 to=kaspa:qp2vx4mupq83n5juatxvnnv3qmjgyrqgp8a4enugccmjjy0dt6st60d6hg9h6 tick=NACHO fee=142267567 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=185374639801 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"142267567"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "9be3e503907d1004b29fb3b897240f1bb8acb70425292603c150880dcc579bfe",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qrez0ueywvnxzlue42ggrp4mcp4ed5w6zfcu0nt257ffe3wkuv9cq0l2h5yxs to=kaspa:qrez0ueywvnxzlue42ggrp4mcp4ed5w6zfcu0nt257ffe3wkuv9cq0l2h5yxs tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=13800000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "9de74c3b32b7d4e867fc71fba554346bb92583d85df5bd96ceadcf56ec47bf83",
+"tick": "NACHO",
+"nin": 1,
+"nout": 2,
+"fee": 100000000,
+"A": "OP from=kaspa:qrk653ttftnjq0gt62s5z20xx2jamt44gxdwjjvlwhz3l5acvfa3sl2hkxce8 to=kaspa:qrk653ttftnjq0gt62s5z20xx2jamt44gxdwjjvlwhz3l5acvfa3sl2hkxce8 tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1999996835 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "9e192130c0569bcdbaed3b160b48ebad2b39b25b3b3739d3b01b3e38363d62eb",
+"tick": "KASBOT",
+"nin": 1,
+"nout": 1,
+"fee": 119995728,
+"A": "OP from=kaspa:qqk80m5y6cg9tc5qu7wv9quw3dnxwuuvzskj66tydz3nqaxadvq6gquuu6jfe to=kaspa:qqk80m5y6cg9tc5qu7wv9quw3dnxwuuvzskj66tydz3nqaxadvq6gquuu6jfe tick=KASBOT fee=119995728 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1980001107 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"119995728"
+],
+"sigLen": 160,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "9f32616c0da2b41c54eac2872ff3700eb969f00715e3d6017f092065acfdbc4a",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 106893866,
+"A": "OP from=kaspa:qpw5kk77kaxe8wfaj9ewt603y4vjy9musmz58flfr3v4fxrztjv47hys47jng to=kaspa:qpw5kk77kaxe8wfaj9ewt603y4vjy9musmz58flfr3v4fxrztjv47hys47jng tick=NACHO fee=106893866 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=49384966092 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"106893866"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "9f6830700e9aae208a90d4cd2b41333138c8d476cf5002e36d5fe159df3d7d99",
+"tick": "KASPER",
+"nin": 1,
+"nout": 1,
+"fee": 227637432,
+"A": "OP from=kaspa:qpf4gr465aup3mq2tmua6fu339vur8rdmdz32mgwysfwe5du8y2v6kja670lr to=kaspa:qpf4gr465aup3mq2tmua6fu339vur8rdmdz32mgwysfwe5du8y2v6kja670lr tick=KASPER fee=227637432 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=7056760392 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"-1",
+"mint finished",
+"227637432"
+],
+"sigLen": 159,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "a179c411a7c739a12ea2c26ff7ffb5d7881efa9f34e290d8da9d5494a8cf7f9a",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 125993764,
+"A": "OP from=kaspa:qzrv3a94ysf8sd8pa0lqnf25czq4dym4gzn0lkl6ll0ppfjcl5e6xz2l3937c to=kaspa:qzrv3a94ysf8sd8pa0lqnf25czq4dym4gzn0lkl6ll0ppfjcl5e6xz2l3937c tick=NACHO fee=125993764 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1007950112 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"125993764"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "a1a73908e210d37c0dc8e4328ee7f482e2e0a8f5c565264fb6f4dde5de0c963f",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 129996846,
+"A": "OP from=kaspa:qz7x8mvgw8nxlsen9qytts6atq8gty776t6qlrdsefmxf988n8mtqll8q0gaj to=kaspa:qz7x8mvgw8nxlsen9qytts6atq8gty776t6qlrdsefmxf988n8mtqll8q0gaj tick=NACHO fee=129996846 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1969999989 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"129996846"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "a1fdbc7334889b2a45d9a15f9af38100b1980eba057c2ddc8965450fe11e2da8",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qp5l36kj67xnfrmvmf74sqd7x28k0q835m2uqlkneyeg8ddp97ujx7f6q68aa to=kaspa:qp5l36kj67xnfrmvmf74sqd7x28k0q835m2uqlkneyeg8ddp97ujx7f6q68aa tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=9800000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "a20630f057ff61e3d9b1ccaf715e8ea1cff0de984f543ee275693063ceed5567",
+"tick": "KCATS",
+"nin": 1,
+"nout": 1,
+"fee": 506707919,
+"A": "OP from=kaspa:qp2sx79zqmtvnq6xfaz5a7pe99xuup3h5g38uhssdq9llujd9scvvjauzvy9n to=kaspa:qp2sx79zqmtvnq6xfaz5a7pe99xuup3h5g38uhssdq9llujd9scvvjauzvy9n tick=KCATS fee=506707919 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1593288916 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"506707919"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "a2377b005fee69578b6f4b7c735c836abf7710e0d48a85fc3cc042dd2cdb4423",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qp24y95menfqh9f37a0yvcxvcuh6pk4ad7duf0sngmpg3yx0guaq24lpaqgqt to=kaspa:qp24y95menfqh9f37a0yvcxvcuh6pk4ad7duf0sngmpg3yx0guaq24lpaqgqt tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1999996835 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "a3c4e2e53410c792f246976bd2a525444af9e4b4cd4b1fe935235fba42cd9417",
+"tick": "KEPE",
+"nin": 1,
+"nout": 1,
+"fee": 107352887,
+"A": "OP from=kaspa:qzgcpqpcyug00w77c7ezcdu3q6yqvte3nn8uw04x9csmq5ljccexksvwcjp6l to=kaspa:qzgcpqpcyug00w77c7ezcdu3q6yqvte3nn8uw04x9csmq5ljccexksvwcjp6l tick=KEPE fee=107352887 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=26623515976 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"107352887"
+],
+"sigLen": 157,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "a5195cf04019023897947634d4aa7c4a14ebd38e2f777dee2670b06d63b5ab47",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qz0wxckh2kd93pvrewsfdeywd9qg7ywpc2qgqp454wl4f5umpy74vnd7ykrvw to=kaspa:qz0wxckh2kd93pvrewsfdeywd9qg7ywpc2qgqp454wl4f5umpy74vnd7ykrvw tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1999996835 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "a6327db397a94878d8b0c72a37a9c6fb177bac9bf9b86a66a4829cc3ce6b2a21",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qrxtlfvfaffwm3rxa08668s52zr03s5r0aeckk3mt8ew56c5geuackwvfzf7t to=kaspa:qrxtlfvfaffwm3rxa08668s52zr03s5r0aeckk3mt8ew56c5geuackwvfzf7t tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=39000000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "a6b5c4d825ee92f93b821a205784ccc7c3e15b2e2fcad560f53ac399b2d34b75",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 124699800,
+"A": "OP from=kaspa:qr37wr39kah7wacqz9jrqj4ltywzuah73u63cea5kftmnqjjx4eg7htm0pnqk to=kaspa:qr37wr39kah7wacqz9jrqj4ltywzuah73u63cea5kftmnqjjx4eg7htm0pnqk tick=NACHO fee=124699800 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=14589876600 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"124699800"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "a7ea1a970b0b1a58ade2d9ac4d2cea637294bb11dd759653afad876fb13c4934",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 112427164,
+"A": "OP from=kaspa:qqn48zjs0qrsexk6jhu6m7chxn02a5zeuyv6y8sknm27juylhn9tq20scex3s to=kaspa:qqn48zjs0qrsexk6jhu6m7chxn02a5zeuyv6y8sknm27juylhn9tq20scex3s tick=NACHO fee=112427164 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=7420192824 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"112427164"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "a8cdb1cfdbe7241ada8d87c7372c2e1225322a61fd1276ddd845af5166fe4a66",
+"tick": "KPAW",
+"nin": 1,
+"nout": 1,
+"fee": 119993492,
+"A": "OP from=kaspa:qqgd067tvnc5vfn7n2a02q7rcysatkzw97whxgf7clcjwq88tgdg2v5yqrlzf to=kaspa:qqgd067tvnc5vfn7n2a02q7rcysatkzw97whxgf7clcjwq88tgdg2v5yqrlzf tick=KPAW fee=119993492 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1980003343 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"119993492"
+],
+"sigLen": 158,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "a8f0e80a3ee404e64b2b5aad4201a8057d3f58fd95bff72e8ebd3e8326f3825f",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qzd5fgzekc6lm7yrh8sjwvff0cwlaptard3fxc458am309jdpshax0gmdrpg8 to=kaspa:qzd5fgzekc6lm7yrh8sjwvff0cwlaptard3fxc458am309jdpshax0gmdrpg8 tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1999996835 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "a964e7b0c3c767151c61eb79567a05d0d13060b759f65078c3feeee4250bde85",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 130000000,
+"A": "OP from=kaspa:qrjtmqf957m3ckgr3dnx7w03xyyxte8d8quzg5v2zx9vz3sem7m9x72fqy9tt to=kaspa:qrjtmqf957m3ckgr3dnx7w03xyyxte8d8quzg5v2zx9vz3sem7m9x72fqy9tt tick=NACHO fee=130000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=202670000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"130000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "aaa7bfea8e1f26b9519d0495974dfe1f6a266ae01c48735179eb216547633e3f",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 160000000,
+"A": "OP from=kaspa:qrlhcftl9vka7mxkyzjmffv75x8h36rsa89afylkdzperft3952e5am9q29cp to=kaspa:qrlhcftl9vka7mxkyzjmffv75x8h36rsa89afylkdzperft3952e5am9q29cp tick=NACHO fee=160000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=179840000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"160000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "ae0e2b86deab577cd089ab21b41c7be47cc0638fcd0628274734f9ddb071bc38",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 219634792,
+"A": "OP from=kaspa:qz9ck977t8a0uhcmyvn7vyr5y7q3l2gx3ksu9juk0pn9uzjggs4w7cqcf8wem to=kaspa:qz9ck977t8a0uhcmyvn7vyr5y7q3l2gx3ksu9juk0pn9uzjggs4w7cqcf8wem tick=NACHO fee=219634792 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=57983585088 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"219634792"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "b0e8e34a2bf3368e1d3880a05ad3c1772e68d8d1d657a70b0d4ae199b554b2c0",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 494000962,
+"A": "OP from=kaspa:qpurd9v3at3e0tmh8pw6f42klas0xdgljl2ll6sa6ammtdy8wvwg6zmksq8la to=kaspa:qpurd9v3at3e0tmh8pw6f42klas0xdgljl2ll6sa6ammtdy8wvwg6zmksq8la tick=NACHO fee=494000962 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=205010399230 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"494000962"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "b27d9126e1b225ba28b6c9060698b9f039e121961b8fa0661e9f9b8e6f247aa3",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 185744291,
+"A": "OP from=kaspa:qql8m4lsht9ut0g8mlsdgl9j7xg8x0umuq8uvcugjnuhswju7tdfkfv6e065a to=kaspa:qql8m4lsht9ut0g8mlsdgl9j7xg8x0umuq8uvcugjnuhswju7tdfkfv6e065a tick=NACHO fee=185744291 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=68353899088 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"185744291"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "b3f2de12923635d342dbcc279a2491f72ede4febcb457d9d82be9c5107b3d0e3",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qp5ed45qeptegyaj56quhly5e4usqge79zg90wx0jcxl8rclv9eez26f0n869 to=kaspa:qp5ed45qeptegyaj56quhly5e4usqge79zg90wx0jcxl8rclv9eez26f0n869 tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=3600000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "b6e8d16d62d612b77dce2fa528c0db899b93db3b2a80b158bfd2f37a898e5ec5",
+"tick": "KASBOT",
+"nin": 1,
+"nout": 1,
+"fee": 420329704,
+"A": "OP from=kaspa:qqaahu2zrjl7w87n3lfpp9h2rhapth39enfckdk2lr7sf96xu9ccvfnqn6r78 to=kaspa:qqaahu2zrjl7w87n3lfpp9h2rhapth39enfckdk2lr7sf96xu9ccvfnqn6r78 tick=KASBOT fee=420329704 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=29423079280 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"420329704"
+],
+"sigLen": 159,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "b6ec1e874936ee5ed05dcaf4a8454b504139909f2044e547e1af36d56afbcf95",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 180923725,
+"A": "OP from=kaspa:qpdvv7z7j9q4r6728uke6rp2cc9klx3pj8r9mq5vdruukepu50k06v0kagck9 to=kaspa:qpdvv7z7j9q4r6728uke6rp2cc9klx3pj8r9mq5vdruukepu50k06v0kagck9 tick=NACHO fee=180923725 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1600270347625 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"180923725"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "b97bc07bfcced1a17af100fb51b9c174fffd984b76f430afb561ed09e2d89269",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 174995728,
+"A": "OP from=kaspa:qqw8a6hzd2e3tf2zn0eg78zc3q5cedmq4ganctdg9xj4msm6c26q7cl3q802m to=kaspa:qqw8a6hzd2e3tf2zn0eg78zc3q5cedmq4ganctdg9xj4msm6c26q7cl3q802m tick=NACHO fee=174995728 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1925001107 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"174995728"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "bb08864b764705d818d8a97464dc9a6be6b9bb867ab127126e2825d7e91905f1",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qrn6zlwh74fnwh0d6gsvslj4s987ydfvfk4c5tr5u688zv3nwljh58908hzt9 to=kaspa:qrn6zlwh74fnwh0d6gsvslj4s987ydfvfk4c5tr5u688zv3nwljh58908hzt9 tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=7400000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "bbd8cbeeda11a6c9cfa281e53d00a6e4865d34bd601f0cbdf280b83a79795409",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 55543972,
+"A": "OP from=kaspa:qzgwvmnjlkaamk4txnav883d5j3t63cs7zrrdmm0mg0mm9pn8slqc6cr9wz8c to=kaspa:qzgwvmnjlkaamk4txnav883d5j3t63cs7zrrdmm0mg0mm9pn8slqc6cr9wz8c tick=NACHO fee=55543972 -> stored as reject: fee not enough",
+"B": "DROP fee: amountIn=0 <= amountOut=2044453981 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"-1",
+"fee not enough",
+"55543972"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "bc5910f9469243c38c877fe0101bd09b64b915aede512fd98c4a822d5a61cd56",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 299995728,
+"A": "OP from=kaspa:qpvxuyx2e8gfjvkgkact2gdqeqckvfgy85gmccdx9zqs0gnkgzjmqxvumpm00 to=kaspa:qpvxuyx2e8gfjvkgkact2gdqeqckvfgy85gmccdx9zqs0gnkgzjmqxvumpm00 tick=NACHO fee=299995728 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1799888655 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"299995728"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "bcc3953ecc0da7130b6f7c08ce2b02684d767ea682cb63c94819ca091445e12d",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 213572768,
+"A": "OP from=kaspa:qz6xxwz8vk9ramfrlr49ax8m5l25vjmvtpq03jh94f78g5c4tgfmgyns5yccf to=kaspa:qz6xxwz8vk9ramfrlr49ax8m5l25vjmvtpq03jh94f78g5c4tgfmgyns5yccf tick=NACHO fee=213572768 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1886424067 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"213572768"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "be27f5e73cf4761f1d859150d2ea22c6721f8209911bb5c83dbff8ed9a136294",
+"tick": "KASPER",
+"nin": 1,
+"nout": 1,
+"fee": 180000000,
+"A": "OP from=kaspa:qrymfpl9y2508gfv3thkfxyasyc3yryrtf2adt4wfdsf2p9pfajhgw937thl2 to=kaspa:qrymfpl9y2508gfv3thkfxyasyc3yryrtf2adt4wfdsf2p9pfajhgw937thl2 tick=KASPER fee=180000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=2700000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"-1",
+"mint finished",
+"180000000"
+],
+"sigLen": 159,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "bfde721b579444ae9340fb484ce264054b3c9ba7592ba39bcba6ebf5657b7f30",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 150000000,
+"A": "OP from=kaspa:qpa38jfue554jtptmzs2hxx0guyga22k4snvk5wy54gmaaz8m934ylfvmr7te to=kaspa:qpa38jfue554jtptmzs2hxx0guyga22k4snvk5wy54gmaaz8m934ylfvmr7te tick=NACHO fee=150000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1500000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"150000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "c01168376d48720f1ebd49ec2e767a6834fcb5b1510513b1070971cb29848839",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qple2py022qy8xgkvrwdy4fdg0muew0rncqv59zekwy3e057uqsyg9ygj8dm2 to=kaspa:qple2py022qy8xgkvrwdy4fdg0muew0rncqv59zekwy3e057uqsyg9ygj8dm2 tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=73300000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "c0a9a8af45ca2bcbdd4558f338caf9fe1a26a67cb30e1b30a17ec52a54053832",
+"tick": "KASTOR",
+"nin": 1,
+"nout": 1,
+"fee": 169197436,
+"A": "OP from=kaspa:qplyxskpkvg7ec09n7ncfa26cl5qvkc8exu3w9npt5fzkm0wyaq8q0r88x5lv to=kaspa:qplyxskpkvg7ec09n7ncfa26cl5qvkc8exu3w9npt5fzkm0wyaq8q0r88x5lv tick=KASTOR fee=169197436 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1930799399 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"169197436"
+],
+"sigLen": 160,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "c211477b5b9b71a84a0c2fdd7f0dfd76f6b92286bfac6222f052b9e769add738",
+"tick": "KASTOR",
+"nin": 1,
+"nout": 1,
+"fee": 226717401,
+"A": "OP from=kaspa:qpe5a7c5nj3xepvt5dhs7ak3nv76jjfc56hlhzuk0kgp7pnhxdz0wwxm2pwtp to=kaspa:qpe5a7c5nj3xepvt5dhs7ak3nv76jjfc56hlhzuk0kgp7pnhxdz0wwxm2pwtp tick=KASTOR fee=226717401 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1873279434 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"226717401"
+],
+"sigLen": 160,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "c4844c49bf2a97694712ae9d92dd62e4b261c3aac06aea82f93da16b6ceddfba",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 181945235,
+"A": "OP from=kaspa:qp6gwjavhlvuymcsn9ywdp5y6vup3rgxkdgz2m209y004flrgg8j5gtd4e0yv to=kaspa:qp6gwjavhlvuymcsn9ywdp5y6vup3rgxkdgz2m209y004flrgg8j5gtd4e0yv tick=NACHO fee=181945235 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1918051600 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"181945235"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "c57091c3aa129d6a5b557cc0a91dcc3f2db6b120a3ecc37c0c6a615cf7ccdbc3",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qpd07mzrce5cq35ugkl3t7pst98r4w6lx9vxzysdtftppxhcasua6uzj4m3lu to=kaspa:qpd07mzrce5cq35ugkl3t7pst98r4w6lx9vxzysdtftppxhcasua6uzj4m3lu tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=800000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "c6d8565985744185712b1613e85cf5098cdaebacf56c477b4879d53ba7afb628",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 125820159,
+"A": "OP from=kaspa:qqe96l7xvdkngnrawa75n509wq8d55q6xjx6cejwg793eq6g7tcy5nsvyr0v8 to=kaspa:qqe96l7xvdkngnrawa75n509wq8d55q6xjx6cejwg793eq6g7tcy5nsvyr0v8 tick=NACHO fee=125820159 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=46930919307 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"125820159"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "c909db5563d061b06824704af9c20840e6d881fb0b8e20d0f458e70b8e15b4a0",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 112679800,
+"A": "OP from=kaspa:qphwgjfpfea8qaz96enezfuuzz5nfvm5n5eardhtu3udyq38p7eukqp4d2lac to=kaspa:qphwgjfpfea8qaz96enezfuuzz5nfvm5n5eardhtu3udyq38p7eukqp4d2lac tick=NACHO fee=112679800 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=43269043200 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"112679800"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "c9327682120b6abb785a01dccebcd81adce8061bcf30d9f0ef7c73722b346446",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 116546255,
+"A": "OP from=kaspa:qprhzhwepd9t3kpqp4ufrs5ecfwlf0lap082rlcf3ec4zvmj5crgc226twgk3 to=kaspa:qprhzhwepd9t3kpqp4ufrs5ecfwlf0lap082rlcf3ec4zvmj5crgc226twgk3 tick=NACHO fee=116546255 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=20978325900 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"116546255"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "c9cd3ac40a34f3f204c046c9752f779699362058d1a5a54aba18eb94fef49f7a",
+"tick": "KASPER",
+"nin": 1,
+"nout": 1,
+"fee": 300000000,
+"A": "OP from=kaspa:qrlz94e66lc3ddqkm078d2gxt6xatqnvwq22585jgnq0syxeek3kzy7xm4ddp to=kaspa:qrlz94e66lc3ddqkm078d2gxt6xatqnvwq22585jgnq0syxeek3kzy7xm4ddp tick=KASPER fee=300000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=303900000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"-1",
+"mint finished",
+"300000000"
+],
+"sigLen": 159,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "cba36cb3a59852cd285fa854c9acc1a92ef8fe04f6efc3922013278092ec9b79",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qzdzxyv5sz5j2y04k96fqydeppg4fl783qea8ckezwz0t89d8v52528l5ngp5 to=kaspa:qzdzxyv5sz5j2y04k96fqydeppg4fl783qea8ckezwz0t89d8v52528l5ngp5 tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=16100000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "cc38aacc128e83e24b3767390fa09ae570a9872ee48dcb71394b8e328a7fcb05",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 126000000,
+"A": "OP from=kaspa:qqdqc7tky78p6tjk8eej0qld0hfr2uc9xtdvljzjs43hxhq2n43xqu5l6jex0 to=kaspa:qqdqc7tky78p6tjk8eej0qld0hfr2uc9xtdvljzjs43hxhq2n43xqu5l6jex0 tick=NACHO fee=126000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=22428000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"126000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "ce39d40c8e15bec03560ae08a28be22f28986a28482d0e69ebc13a7b3cc45dc0",
+"tick": "KASBOT",
+"nin": 1,
+"nout": 1,
+"fee": 101000000,
+"A": "OP from=kaspa:qpgc4x9uaczp7asvyepmgqca48sf3l699yjx4kf37uu2ce23msgeukfy8epy5 to=kaspa:qpgc4x9uaczp7asvyepmgqca48sf3l699yjx4kf37uu2ce23msgeukfy8epy5 tick=KASBOT fee=101000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=79083000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"101000000"
+],
+"sigLen": 159,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "ce85248c570e3f70b3f318321f79f8ff4cb5513af426642aec905996a37238e1",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qpmeme5rpcr9egdmexujf2xgm5dyq4c425jfrsf0yutdjtkj6s4nj4gwrcpxt to=kaspa:qpmeme5rpcr9egdmexujf2xgm5dyq4c425jfrsf0yutdjtkj6s4nj4gwrcpxt tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1999996835 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "cfd6add5bae0eb7e10998c58e2c1591be24aede29c80384c98270bd560d52f55",
+"tick": "KASBOT",
+"nin": 1,
+"nout": 1,
+"fee": 119995728,
+"A": "OP from=kaspa:qqk80m5y6cg9tc5qu7wv9quw3dnxwuuvzskj66tydz3nqaxadvq6gquuu6jfe to=kaspa:qqk80m5y6cg9tc5qu7wv9quw3dnxwuuvzskj66tydz3nqaxadvq6gquuu6jfe tick=KASBOT fee=119995728 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1980001107 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"119995728"
+],
+"sigLen": 160,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "d525cb7ef1d7a1fdc58a2e9c6bfdd97417ae575b944889cd5e81b4fbbee4deb1",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qzxj9naka25qcqg4wqf6w9x56a80qmgztmjgfhe4l678fgvhvrykjswrufad5 to=kaspa:qzxj9naka25qcqg4wqf6w9x56a80qmgztmjgfhe4l678fgvhvrykjswrufad5 tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=34900000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "d6977bee18687bea4a8fdce48b84784f35979a76e4cd3de606ca0fd6178a5eea",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 102084549,
+"A": "OP from=kaspa:qpmcjueamhwn5h4mh5ja7n2hn8uhzdq4uj68zfj8vrvd7yc5e4wlvux347can to=kaspa:qpmcjueamhwn5h4mh5ja7n2hn8uhzdq4uj68zfj8vrvd7yc5e4wlvux347can tick=NACHO fee=102084549 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1997912286 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"102084549"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "d6a25ce9f89bd09c38d75a39e2c59a110982b8b189c4213745772af0a7c296f9",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 639644820,
+"A": "OP from=kaspa:qr3dup5vfdlzxnryzlz4svz2gtu54fa2y3r4ryqv2f7upephz4rwvgw4a85xw to=kaspa:qr3dup5vfdlzxnryzlz4svz2gtu54fa2y3r4ryqv2f7upephz4rwvgw4a85xw tick=NACHO fee=639644820 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1460352015 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"639644820"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "d6faea1658f1d8ec0ff453d4fe3c927ab593c67bbb980fd0356acf581cc80a16",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qqvqk80edkmsqrfhnzqmpvv88pawnu46p7g28t5d7ss9ep0nf0l7gpj6puxcc to=kaspa:qqvqk80edkmsqrfhnzqmpvv88pawnu46p7g28t5d7ss9ep0nf0l7gpj6puxcc tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=17200000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "d72c504fd6e217ead83f555f5b49ef9750f895123c88ecf2f5d053effa3a492c",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 128640000,
+"A": "OP from=kaspa:qplsy2t4nz8777c25j6sd3dv0yhtyhau0mp0xrk00cjlwncanhwnjfglhhv8l to=kaspa:qplsy2t4nz8777c25j6sd3dv0yhtyhau0mp0xrk00cjlwncanhwnjfglhhv8l tick=NACHO fee=128640000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=49140480000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"128640000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "d78b9fd6d34cfc35bd4821a1bf652e79c9312b09128beb490bcc79159797c48e",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 110818788,
+"A": "OP from=kaspa:qznrcn0k6swlp4nl8mjqcqgje95c43pp0r79vzdtcglh6x4agccygtlqxvyce to=kaspa:qznrcn0k6swlp4nl8mjqcqgje95c43pp0r79vzdtcglh6x4agccygtlqxvyce tick=NACHO fee=110818788 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1883919396 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"110818788"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "d9dc7879b57421b69d386c25186b5a5932d59ff46b838e222f674d7f72e45a87",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 153457802,
+"A": "OP from=kaspa:qrh6h2kr23ff36xmcy04nw3ktk7j2uv8g0t3cqczm6yua8dscl8gytwjp9r6j to=kaspa:qrh6h2kr23ff36xmcy04nw3ktk7j2uv8g0t3cqczm6yua8dscl8gytwjp9r6j tick=NACHO fee=153457802 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=79644599238 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"153457802"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "da33aa2b389f767db45b35395be7eed020ff2d463df5350d115b00954d30792e",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qp5mm366cj2fhw5pmzyus7ekvutz3tja7gdl3jgjaumn9zd9afm7sxhy0p6n0 to=kaspa:qp5mm366cj2fhw5pmzyus7ekvutz3tja7gdl3jgjaumn9zd9afm7sxhy0p6n0 tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1999996835 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "dae2e5781978c14c9cd682acdfee093de30ee07c71b6d315932559181511208e",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 164257331,
+"A": "OP from=kaspa:qpmy6fwv730r4e5jjwyp3df6r3xqxa63d9ycvrfs6fh587lkklgpknjzlqnvq to=kaspa:qpmy6fwv730r4e5jjwyp3df6r3xqxa63d9ycvrfs6fh587lkklgpknjzlqnvq tick=NACHO fee=164257331 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1935740622 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"164257331"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "dba65184817277cb493c9517b492fbe5008b68fc4e021a1a09b32598a99faea0",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 220420923,
+"A": "OP from=kaspa:qzxn5uxekjk93rf8n74ty36x6kx7yh7hpkj569s8fcz99u0uw9sg5apfq75t0 to=kaspa:qzxn5uxekjk93rf8n74ty36x6kx7yh7hpkj569s8fcz99u0uw9sg5apfq75t0 tick=NACHO fee=220420923 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1879577030 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"220420923"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "dbf0fd080d59adec97239a322c9dfd09fa399144762493da94dbb9a16397baa1",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qptfqv8j72dyxszexlw6rq6tnmftzk8gq42yprrjv2njvs458dma2gx38j4n3 to=kaspa:qptfqv8j72dyxszexlw6rq6tnmftzk8gq42yprrjv2njvs458dma2gx38j4n3 tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1999996835 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "dd205f1dbacc7d299ffeaf8a631ce32a3b5538aa122b25c27ac25a07388479f5",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 135029821,
+"A": "OP from=kaspa:qp8sn3e9pgc7du85fct8jhfh06p2x9mt0mg2vx9gly00kql35jwvyk5udy5cc to=kaspa:qp8sn3e9pgc7du85fct8jhfh06p2x9mt0mg2vx9gly00kql35jwvyk5udy5cc tick=NACHO fee=135029821 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=12287713711 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"135029821"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "de28f3bf0f0530fe8fbc069af261b991c4edda448e9035d7264d316e2a3d8dca",
+"tick": "KPAW",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qzlc66ck4q32mm077efu2efnfew37ftxcle9ghl7vvsxch79a4kcyeyfpdg3v to=kaspa:qzlc66ck4q32mm077efu2efnfew37ftxcle9ghl7vvsxch79a4kcyeyfpdg3v tick=KPAW fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=32700000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 157,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "e1ad1f25418f0c35561da939c1054896598c10131f61dae0e4b57e38d8df7e6a",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qr3z0yg0g553xejhsaypuf32thkjc7f0chwjlnjx5uv3u2847kazgr6w0u6at to=kaspa:qr3z0yg0g553xejhsaypuf32thkjc7f0chwjlnjx5uv3u2847kazgr6w0u6at tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=25100000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "e22754a6c987e6841251130f2eb8161c9e55fdfcf1ba87fc60a66f7d3493ce24",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 109444481,
+"A": "OP from=kaspa:qqha9lu8wmjgycqjwvrtpj7txcz9790cg7dy5av489l2p4zzzcnvznq3dxhjp to=kaspa:qqha9lu8wmjgycqjwvrtpj7txcz9790cg7dy5av489l2p4zzzcnvznq3dxhjp tick=NACHO fee=109444481 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=34146678072 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"109444481"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "e4a4484dd50c7a1bd571a8a8eca3075d23206438f324dc72e4c767bde39ca2b4",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qz6ue5zh0j5zqtq2yef2xun2fenqx08zlm3huxsthcumksjnuv4n7c6vfv3pk to=kaspa:qz6ue5zh0j5zqtq2yef2xun2fenqx08zlm3huxsthcumksjnuv4n7c6vfv3pk tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=4100000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "e4a9a630544d81d07ef43b2cb24222e38eac12a2e470dc3f50a31fe868ae20bb",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 145112646,
+"A": "OP from=kaspa:qzcvq7ned5mp856u4dk2zw7peaq0km4nfsvz3khx509r3tm3ng686fqyja8ry to=kaspa:qzcvq7ned5mp856u4dk2zw7peaq0km4nfsvz3khx509r3tm3ng686fqyja8ry tick=NACHO fee=145112646 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1954884189 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"145112646"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "e60d8760e347bc43b2902ad1a145a4371d67b2efe70a7c415ba1129e76eb9403",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qp5mm366cj2fhw5pmzyus7ekvutz3tja7gdl3jgjaumn9zd9afm7sxhy0p6n0 to=kaspa:qp5mm366cj2fhw5pmzyus7ekvutz3tja7gdl3jgjaumn9zd9afm7sxhy0p6n0 tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1999996835 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "e82b8bce142165ee47739de250ca5a9fd0918e42d35dfc16c108a8bcee8fd2f6",
+"tick": "KPAW",
+"nin": 1,
+"nout": 1,
+"fee": 150000000,
+"A": "OP from=kaspa:qratp7hp8rwc3usrtf9wgytatsltft8klq33dnamxyea4f7l5p3vqtn9avjts to=kaspa:qratp7hp8rwc3usrtf9wgytatsltft8klq33dnamxyea4f7l5p3vqtn9avjts tick=KPAW fee=150000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=4350000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"150000000"
+],
+"sigLen": 157,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "e95836a964a732e3cabbe616cbd156fa9a1a8b336a4cc12add9cc6239daed72a",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 111046244,
+"A": "OP from=kaspa:qzaazjj8e5dtrly3n84ma30cxs50slh9extla4y8scnhutcacqez2rn4xc0fx to=kaspa:qzaazjj8e5dtrly3n84ma30cxs50slh9extla4y8scnhutcacqez2rn4xc0fx tick=NACHO fee=111046244 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=48305116140 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"111046244"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "f206ec506af15b3ac42e7077566a9600de39c76acef271a75316fe641965844d",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qqth3e5vfmzxs9604fl6e7rysyxsg0ewytv6w5af8kndhd59mwlrgkrkm2kht to=kaspa:qqth3e5vfmzxs9604fl6e7rysyxsg0ewytv6w5af8kndhd59mwlrgkrkm2kht tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=2200000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "f2f100d31c3a1151713ec4166eede1397981af70534bb1fbbef30cc654346c73",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 111997964,
+"A": "OP from=kaspa:qrleadzqyyzlvvxz38l2n3vq4rvq6u74rwjghfl02pqv837gqzxdcndtrppkr to=kaspa:qrleadzqyyzlvvxz38l2n3vq4rvq6u74rwjghfl02pqv837gqzxdcndtrppkr tick=NACHO fee=111997964 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1987998871 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"111997964"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "f61958aa8b3b55f55e3f5810f6ddf828731b6f7d9ff028c9b1fb31061f2d3a1a",
+"tick": "KPAW",
+"nin": 1,
+"nout": 1,
+"fee": 216138262,
+"A": "OP from=kaspa:qzx6qk4ut4m249pceu2ll4llxrhw4x47ezr403kz5nj4k4u8qchcvhuvtc067 to=kaspa:qzx6qk4ut4m249pceu2ll4llxrhw4x47ezr403kz5nj4k4u8qchcvhuvtc067 tick=KPAW fee=216138262 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1737709142 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"216138262"
+],
+"sigLen": 158,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "f760659e35fd5e8133fe8fc39cb656468eadc748d1a7cc0be1353f04eefdf87e",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 110000000,
+"A": "OP from=kaspa:qz8g6tfuqn3nlc5kffl3m0jgpnpp4sxvlcuzpcyevnlvepdlmsk4yjevphqku to=kaspa:qz8g6tfuqn3nlc5kffl3m0jgpnpp4sxvlcuzpcyevnlvepdlmsk4yjevphqku tick=NACHO fee=110000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=107580000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"110000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "f8b31a80a25d0235ad951a4227fe96b4ff8f850a669a254c08505857d96df20a",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qzzlu2hg0re2j73zu30t0pyvs6x8lhjnzqjr7eqlk0e6em7qg4ql7mes7zdhk to=kaspa:qzzlu2hg0re2j73zu30t0pyvs6x8lhjnzqjr7eqlk0e6em7qg4ql7mes7zdhk tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=92100000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "f90f3183c83eb9836a3dbb391a9d6b403c7a45788db7bde817afc33e1ce4e37f",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 200000000,
+"A": "OP from=kaspa:qr6977fn0jx03ar4qsqdrvud9xut00ed9hrfthpasgv0qqzlqshh2awp62wqn to=kaspa:qr6977fn0jx03ar4qsqdrvud9xut00ed9hrfthpasgv0qqzlqshh2awp62wqn tick=NACHO fee=200000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=4200000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"200000000"
+],
+"sigLen": 156,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "1e0942f3b7906e324a198ea5f69d0e9f30b34e95014ffa3a712ab4046ae01472",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 186085477,
+"A": "OP from=kaspa:qr30r556qphqgnpm77x7e4x50l87vz720efq5gukw0ahufk3k7x2w49e0t9kx to=kaspa:qr30r556qphqgnpm77x7e4x50l87vz720efq5gukw0ahufk3k7x2w49e0t9kx tick=NACHO fee=186085477 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1737107927795 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"186085477"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "ff01e1765b698cb0cca7f51b80be92388a03acf47aac58154afb0304fd00c54f",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 109049709,
+"A": "OP from=kaspa:qznkj3la95xnf09j4p7ncqfq7r4ds2ekr28xpmcptydka303gmac707ve9gyf to=kaspa:qznkj3la95xnf09j4p7ncqfq7r4ds2ekr28xpmcptydka303gmac707ve9gyf tick=NACHO fee=109049709 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=17120804313 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"109049709"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "20fb2d0e0feff91570ada08ebd5a6cfb0f4635089d25b8e6cb2f13b5a54b3bf1",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 122000000,
+"A": "OP from=kaspa:qqptzw5za5m4pfyz78awkaxlux5pwwwcx59ku7vlszeytxvnh266yv2pdvmdf to=kaspa:qqptzw5za5m4pfyz78awkaxlux5pwwwcx59ku7vlszeytxvnh266yv2pdvmdf tick=NACHO fee=122000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=25254000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"122000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "23cfa2eb91baf45eb60c56dfb1c2532542dc4419f49a4d73024e65c3940d0c9e",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 124732224,
+"A": "OP from=kaspa:qrk2ve954ahq4sjkkwr3hh2v5s6nhrrhz325qdlr20sxxr7curuevcw5u9432 to=kaspa:qrk2ve954ahq4sjkkwr3hh2v5s6nhrrhz325qdlr20sxxr7curuevcw5u9432 tick=NACHO fee=124732224 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=579880109376 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"124732224"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "24aaa758dd261ea169f58ffe6ba18bdecacd496c168530387c78dbfc45c1c731",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qqhnlnept3xk86skq59je87rc6walyhgnkwmdx2f7jvta6kmy2kzqxejxvxx3 to=kaspa:qqhnlnept3xk86skq59je87rc6walyhgnkwmdx2f7jvta6kmy2kzqxejxvxx3 tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=6500000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "26057e5f6f585ff0cfa57fb62539c9b935167de9912c719b584d10ad23c1ec80",
+"tick": "KASBOT",
+"nin": 1,
+"nout": 1,
+"fee": 119995728,
+"A": "OP from=kaspa:qqk80m5y6cg9tc5qu7wv9quw3dnxwuuvzskj66tydz3nqaxadvq6gquuu6jfe to=kaspa:qqk80m5y6cg9tc5qu7wv9quw3dnxwuuvzskj66tydz3nqaxadvq6gquuu6jfe tick=KASBOT fee=119995728 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1980001107 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"119995728"
+],
+"sigLen": 160,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "264727c8120c62a5f032cb8aaead7736060b86aced4e40ed39bf304067d835b0",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 134706055,
+"A": "OP from=kaspa:qr7evj9n9xk6cf7jz7kpcqw7n3093kgs6nft2e8nf83rfghkj7cvvcym54jy8 to=kaspa:qr7evj9n9xk6cf7jz7kpcqw7n3093kgs6nft2e8nf83rfghkj7cvvcym54jy8 tick=NACHO fee=134706055 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=127701340140 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"134706055"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "27842f29a0c8f84c8a795b14a5560acb60104638ba4b6ac523e0eae9b10a120f",
+"tick": "KPAW",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qql0ppwkg4z4f7edml7w8hkhx5y7tu5vclu8fqt8rgl76pqz65psjuj8wwx4y to=kaspa:qql0ppwkg4z4f7edml7w8hkhx5y7tu5vclu8fqt8rgl76pqz65psjuj8wwx4y tick=KPAW fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1999996835 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "29da63a2351d991097c85f049d0117597039c64b703a802fbf9f4ea80dbaeeb4",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qr90yfltgn4sm56gdtyg9hvl4mv47c0lhsugs308w8x78kljdngzgfuv6ec8l to=kaspa:qr90yfltgn4sm56gdtyg9hvl4mv47c0lhsugs308w8x78kljdngzgfuv6ec8l tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1999996835 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "2a508fcc59c38eacfc656beb105f6c8707163ee2db275a3ec3b532fcd8391620",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 230354728,
+"A": "OP from=kaspa:qrh5nzh0wnv4edta3e0zqhpegg7s5g29p36axl9tln8p079c4xdtj3x5ylwwa to=kaspa:qrh5nzh0wnv4edta3e0zqhpegg7s5g29p36axl9tln8p079c4xdtj3x5ylwwa tick=NACHO fee=230354728 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1869642107 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"230354728"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "2a6d27b70dbf35e84d4183d4eb97e2e88927a52ae5231e6edc5ceb23713e7276",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qrx2umc67at606w6cvfmccuvknxf36sjnktdnqzs3pp569544n2pvcll2dw8h to=kaspa:qrx2umc67at606w6cvfmccuvknxf36sjnktdnqzs3pp569544n2pvcll2dw8h tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=47100000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "2ba68e88450c1bd754060dfde8240c76c7a9194457bc94af5f723c3d7d4d538c",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 135000000,
+"A": "OP from=kaspa:qzg64nf5hgwpftwur9myukl8lqtx7ngarteckem3f70rtzhvsnd4q9xt4sljz to=kaspa:qzg64nf5hgwpftwur9myukl8lqtx7ngarteckem3f70rtzhvsnd4q9xt4sljz tick=NACHO fee=135000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=16875000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"135000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "2d34d6eac6fac36dddc0bfb73867b2c36d186d0c0336535a26f59a96d57fda0a",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 114692144,
+"A": "OP from=kaspa:qp2rr4q30a59yxa3pzna32rfzdsag55svq84q9avrkzqgevvtgu3z3cyqu2ag to=kaspa:qp2rr4q30a59yxa3pzna32rfzdsag55svq84q9avrkzqgevvtgu3z3cyqu2ag tick=NACHO fee=114692144 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1985304691 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"114692144"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "2e578607cee18f100e2cc8f9163702e05f6532292c3529491b870d1e68b92bd9",
+"tick": "KPAW",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qpj6rgfgt7d5ej7gg324fyg29ngwcj833ehfrszp98dgkxye2tav7mle3pj4c to=kaspa:qpj6rgfgt7d5ej7gg324fyg29ngwcj833ehfrszp98dgkxye2tav7mle3pj4c tick=KPAW fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=149700000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 157,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "2fc917dd4035bc1f9a575a86b28dcaf6ea82e0a5c9d5c6e7bff798d80e8a3e90",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 132100000,
+"A": "OP from=kaspa:qrdke0n2ylnlp9avuel2muc4fd5azv8wn3xh360j0238zaaymaeaj2z7nfz62 to=kaspa:qrdke0n2ylnlp9avuel2muc4fd5azv8wn3xh360j0238zaaymaeaj2z7nfz62 tick=NACHO fee=132100000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=49009100000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"132100000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "3072828be1298004064972b2a3465b25713b9df431c3dffa12dad23dbd0002d2",
+"tick": "KASTOR",
+"nin": 1,
+"nout": 1,
+"fee": 166288700,
+"A": "OP from=kaspa:qrngzag5xfvyejwe9sw5m4z76zh4zxqkv4gs9det7fjdsrzvvscs2c547r3e3 to=kaspa:qrngzag5xfvyejwe9sw5m4z76zh4zxqkv4gs9det7fjdsrzvvscs2c547r3e3 tick=KASTOR fee=166288700 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1933708135 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"166288700"
+],
+"sigLen": 160,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "31762cf0a4aa68414a6979833d94dd94bd1b24eaca9134c7f6992b17824068ef",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 667206618,
+"A": "OP from=kaspa:qqy0sg0hrph3ah06gxmvkvvnk93qqsjm5vjyav09w6zmkwlprwd8v9248q6az to=kaspa:qqy0sg0hrph3ah06gxmvkvvnk93qqsjm5vjyav09w6zmkwlprwd8v9248q6az tick=NACHO fee=667206618 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=243530415570 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"667206618"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "3296a828fe5689e19e96e830b3f42f5fb24522cef31d5062ce9c889c09072d8a",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qphs996pzj2cs232g4ysq3ceqph2av0hqgndmqmmxl9wsp0hyafgkmentzyct to=kaspa:qphs996pzj2cs232g4ysq3ceqph2av0hqgndmqmmxl9wsp0hyafgkmentzyct tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=23600000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "34e5c6c270a03f9f65127ff28364929bb64b2f95ccc925956d65b65ca0c9cb04",
+"tick": "KASPER",
+"nin": 1,
+"nout": 1,
+"fee": 151393301,
+"A": "OP from=kaspa:qpqxwhenau6h447tl9u8d2q9ka6m0mhrk80tzgstv2rfpscvcttrcn869wgun to=kaspa:qpqxwhenau6h447tl9u8d2q9ka6m0mhrk80tzgstv2rfpscvcttrcn869wgun tick=KASPER fee=151393301 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=233448470142 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"-1",
+"mint finished",
+"151393301"
+],
+"sigLen": 159,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "350b854e9f6fb64a9aa4a699db31471140617f88b39401e95ea0b298362b02c5",
+"tick": "KPAW",
+"nin": 1,
+"nout": 1,
+"fee": 119993492,
+"A": "OP from=kaspa:qqgd067tvnc5vfn7n2a02q7rcysatkzw97whxgf7clcjwq88tgdg2v5yqrlzf to=kaspa:qqgd067tvnc5vfn7n2a02q7rcysatkzw97whxgf7clcjwq88tgdg2v5yqrlzf tick=KPAW fee=119993492 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1980003343 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"119993492"
+],
+"sigLen": 158,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "36c060d817d8a6107350c66a4954a49e7cb215b2a9ad0c736569055c689db150",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 299990138,
+"A": "OP from=kaspa:qr354jyt5pm23gm44pu3yzpvycn0jy5xf7asungc9jd89p8u2rlfkwe66dunp to=kaspa:qr354jyt5pm23gm44pu3yzpvycn0jy5xf7asungc9jd89p8u2rlfkwe66dunp tick=NACHO fee=299990138 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1800005579 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"299990138"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "391f2755d6e4cc08bc9f9d04db8753b924f630306a8dcac28214955766885479",
+"tick": "KASPER",
+"nin": 1,
+"nout": 1,
+"fee": 179715099,
+"A": "OP from=kaspa:qz5usteeyc9t2f0jt9wc56wmlgms54z9x59cns90wc4q6q4lny75zh7suxqgq to=kaspa:qz5usteeyc9t2f0jt9wc56wmlgms54z9x59cns90wc4q6q4lny75zh7suxqgq tick=KASPER fee=179715099 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=71346894303 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"-1",
+"mint finished",
+"179715099"
+],
+"sigLen": 159,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "3ae6a1ec9cacbc132d2e2c3f3ce4b0de1dd751435ef2218f7ce9dc416e780de9",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 110274340,
+"A": "OP from=kaspa:qp2zj5ezxn4dcd6grl952edul4x3eeagadt5fkdnee5y4ez87ay6g5l2ftcdm to=kaspa:qp2zj5ezxn4dcd6grl952edul4x3eeagadt5fkdnee5y4ez87ay6g5l2ftcdm tick=NACHO fee=110274340 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=20841850260 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"110274340"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "3aedbe9b8bed69bd12d047042fb580db6740fd2de530655791fef3cab08c54d9",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qqyj5qzs7fg96hl53ks4zhe0dp6dcaw7px3zxxj6mtanyvhp98wnkm4fwzsxg to=kaspa:qqyj5qzs7fg96hl53ks4zhe0dp6dcaw7px3zxxj6mtanyvhp98wnkm4fwzsxg tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=4000000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "3bae254779502e4f6d9f06ef154db21d17563e7067156f288973c480ec386f3e",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qpj2guvkm9qu5eper9ey3ygddvzqumn5cqcx4z0kp0t5tnudn3yucnz5u320h to=kaspa:qpj2guvkm9qu5eper9ey3ygddvzqumn5cqcx4z0kp0t5tnudn3yucnz5u320h tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=22600000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "3c90b2a082bbcabca5fdd0d2460593be6b5f7dac5f738e29afe1ca74d23102fb",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qp325l96x24t0a293r50rvvcttgnfxlsq8ah2nnvz26exu050sw070tm5v63z to=kaspa:qp325l96x24t0a293r50rvvcttgnfxlsq8ah2nnvz26exu050sw070tm5v63z tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=3800000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "3ca7685e3e4785534fee5649b47c9828bcc1e22bfe8a91d24be181b135cf4d59",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 110000000,
+"A": "OP from=kaspa:qqrkh8ny9zydkfdud86pludzlzldutmwuwxzytjs6ddzpe4xnaufyuc93w5ug to=kaspa:qqrkh8ny9zydkfdud86pludzlzldutmwuwxzytjs6ddzpe4xnaufyuc93w5ug tick=NACHO fee=110000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=168300000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"110000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "3e586e336d5920faed64f977024383c99f11ecfc7b6ebc623698da4cdc655fef",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 628551261,
+"A": "OP from=kaspa:qzsjuxmjweqy5afjn6dfc0tfy0n3khugjzuqdcfzutd9lhsu4gjmwg9vdnfnp to=kaspa:qzsjuxmjweqy5afjn6dfc0tfy0n3khugjzuqdcfzutd9lhsu4gjmwg9vdnfnp tick=NACHO fee=628551261 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=17599435308 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"628551261"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "3fa95405179abcd2e01f88a81a3e707c7934790f84defbc17d024b1eee7798dd",
+"tick": "KASPER",
+"nin": 1,
+"nout": 1,
+"fee": 200000000,
+"A": "OP from=kaspa:qpt3v473435sf52a4fm4xxlw0d8uytxsds2dun9eu079afrg004vupqrkl7d3 to=kaspa:qpt3v473435sf52a4fm4xxlw0d8uytxsds2dun9eu079afrg004vupqrkl7d3 tick=KASPER fee=200000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=833800000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"-1",
+"mint finished",
+"200000000"
+],
+"sigLen": 159,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "404b129e8ac808705f059455dd772515eb07bd39060b96be650f71d54ba28a75",
+"tick": "KASPER",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qzdwzaftsfa4eqmqsfzw6kdca9mvps686js243klk0zrm6tgmh7wwwss9v24w to=kaspa:qzdwzaftsfa4eqmqsfzw6kdca9mvps686js243klk0zrm6tgmh7wwwss9v24w tick=KASPER fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=38700000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"-1",
+"mint finished",
+"100000000"
+],
+"sigLen": 159,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "4169e830e579e29d5e00c8e2ca5e29d8f5ad48d8c498b093cf50fee3118310c6",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 265005503,
+"A": "OP from=kaspa:qzf57qt0ymqlxksz6c33ph9lagm7eep6a39hrwf0qzgz728xfw7xkl2a30z9n to=kaspa:qzf57qt0ymqlxksz6c33ph9lagm7eep6a39hrwf0qzgz728xfw7xkl2a30z9n tick=NACHO fee=265005503 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=1834991332 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"265005503"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "42a183fabd5407242cbdf6abc011fef7458aec46077eabd408db4a86bd16a825",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qzjfs3248esnmpz7vjg0whnm2pfmnpzcagusx8jgs6zavllm302ccmnyafnxd to=kaspa:qzjfs3248esnmpz7vjg0whnm2pfmnpzcagusx8jgs6zavllm302ccmnyafnxd tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=74100000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "42c00b5031158791dfe106713b229ed9455d529ab4445c98004c8e1686d9b3ea",
+"tick": "KASPER",
+"nin": 1,
+"nout": 1,
+"fee": 200000000,
+"A": "OP from=kaspa:qp26zteq8jsxadppsarxe4skpwg76mrsz0xqc9g4966vnlcw97mu2ut62dedd to=kaspa:qp26zteq8jsxadppsarxe4skpwg76mrsz0xqc9g4966vnlcw97mu2ut62dedd tick=KASPER fee=200000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=18800000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"-1",
+"mint finished",
+"200000000"
+],
+"sigLen": 159,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "42d4724e7a80bca6b06a84e143e1970a51023f3b5205dbba8925deb825f1c4b7",
+"tick": "NACHO",
+"nin": 1,
+"nout": 1,
+"fee": 100000000,
+"A": "OP from=kaspa:qr0llwgq4nua72ar05tup9rtn55heuvq3jra9du3745n82d7xqkjwz7rpkcuj to=kaspa:qr0llwgq4nua72ar05tup9rtn55heuvq3jra9du3745n82d7xqkjwz7rpkcuj tick=NACHO fee=100000000 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=13700000000 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"1",
+"",
+"100000000"
+],
+"sigLen": 158,
+"out0type": "scripthash",
+"prevAddrType": "kaspa:p"
+},
+{
+"tid": "436a3a92c8af783b661e5d6ff7d70ab3d6d362d0d065b4d20b391ce967ef6500",
+"tick": "KASPER",
+"nin": 1,
+"nout": 1,
+"fee": 708182346,
+"A": "OP from=kaspa:qzsvmc6t5cqjxjpnf78qrtd5sg4s03q4jjtx9dpnqxdsne4uq98qjmzlcupd7 to=kaspa:qzsvmc6t5cqjxjpnf78qrtd5sg4s03q4jjtx9dpnqxdsne4uq98qjmzlcupd7 tick=KASPER fee=708182346 -> ACCEPT-path (Do: tick exists & fee>=least -> mint)",
+"B": "DROP fee: amountIn=0 <= amountOut=19491817654 -> Fee=0 and 'continue' (op never appended, never stored)",
+"kasplex": [
+"found",
+"-1",
+"mint finished",
+"708182346"
+],
+"sigLen": 159,
+"out0type": "pubkey",
+"prevAddrType": "kaspa:p"
+}
+]
