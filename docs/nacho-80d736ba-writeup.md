@@ -199,13 +199,6 @@ lookups. As a result, the 2024 indexer code dropped the mint silently.
   internally consistent and every op it shows is real. The question is whether every valid op is there.
 - **Checking snapshots.** A snapshot can be checked against L1 independently, for free. The tool here does that.
 
-**An interpretation (not a result):** I find it useful to read this through Minority Prophet, an open research
-project of mine on evidence aggregation, and specifically through its point that **root integrity is
-load-bearing**. In that model, how the indexer derived its record does not change the outcome once the
-set of origins is right. If one origin is missing, everything downstream shifts. That is the shape here: one missing
-mint, 317 ops and 144 holders. This is a lens for thinking about the result, not something the model proves about
-Kasplex.
-
 ## Questions for Kasplex
 
 1. Is commit transaction `736761d911bec9636af6d33fd0ee2856111a578b8b9fe3bb7c5c20e21437b1c9` in your node or
