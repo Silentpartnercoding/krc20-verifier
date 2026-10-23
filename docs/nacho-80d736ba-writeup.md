@@ -201,7 +201,7 @@ lookups. As a result, the 2024 indexer code dropped the mint silently.
 
 **An interpretation (not a result):** I find it useful to read this through Minority Prophet, an open research
 project of mine on evidence aggregation, and specifically through its point that **root integrity is
-load-bearing**. In that model, how a balance travelled from holder to holder does not change the outcome once the
+load-bearing**. In that model, how the indexer derived its record does not change the outcome once the
 set of origins is right. If one origin is missing, everything downstream shifts. That is the shape here: one missing
 mint, 317 ops and 144 holders. This is a lens for thinking about the result, not something the model proves about
 Kasplex.
