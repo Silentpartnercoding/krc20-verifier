@@ -222,8 +222,8 @@ every alternative below is either already a flag or a version bump.
   transactions in acceptance order (`tools/vchain_fetch.py`, `tools/vchain_order.py`). Rebuilding it
   from mergesets alone does not work for older blocks: the block endpoint returns `transactionIds`
   sorted by txid, so in-block position is lost [V: checked against block responses].
-  Caveat: for a few chain blocks the `/virtual-chain` list is itself in ascending txid order and
-  Kasplex's order differs (usually the exact reverse). I know of no other free source for the true
+  Caveat: for a few chain blocks the `/virtual-chain` order and Kasplex's order differ, usually as the
+  exact reverse; in all but one of them the `/virtual-chain` list is in ascending txid order. I know of no other free source for the true
   order there, so those units remain an open difference [I].
 - **8. Exact DAA: required.** A unit key must be the accepting chain block's own DAA score. Interpolated
   DAAs are a replay-input defect, not a format choice. The comparison reports units whose DAA came from
