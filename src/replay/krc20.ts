@@ -18,6 +18,25 @@ export interface OpResult { opScore: string; txId: string; op: string; accept: b
 
 const AMT_MAX = 99999999999999999999999999999999n;
 export const RANGE = { krcMinA: 83_441_551, krcMaxA: 83_525_600, krcMinB: 90_090_600, listSend: 97_539_090, burnChown: 110_165_000, memo: 408_300_500 };
+/**
+ * Archive-input rule. Kasplex's L1 archive starts at DAA 83,403,399, so before HfDaaScore2026Q1 the value of an input
+ * created earlier is unknown and the fee of its tx cannot be computed. Confirmed by the go-krc20d maintainer
+ * (kasplex/go-krc20d#1, 2026-10-24) as part of KRC-20 consensus:
+ *   1. it only affects ops that require a fee (feeLeast > 0: deploy, mint);
+ *   2. the op is ignored (not recorded, no opScore) if ANY input of the tx was created at DAA < 83,403,399;
+ *   3. from DAA >= 408,300,500 (HfDaaScore2026Q1) fees come from rpc-vspc2 and are always exact, so the rule no longer applies.
+ * Code path: explorer/script.go ParseOpDataList second pass (amountIn <= amountOut -> fee "0", continue).
+ */
+export const ARCHIVE_INPUT_MIN_DAA = 83_403_399;
+export const FEE_EXACT_DAA = 408_300_500; // config.HfDaaScore2026Q1
+
+/** True when go-krc20d drops the tx without recording an op (see ARCHIVE_INPUT_MIN_DAA). */
+export function feeOpIgnored(feeLeast: bigint, c: Pick<OpCandidate, "daaScore" | "fee" | "inputMinDaa">): boolean {
+  if (feeLeast === 0n) return false;
+  if (c.fee === 0n) return true; // amountIn <= amountOut -> fee "0" -> continue (all DAAs)
+  if (c.daaScore >= FEE_EXACT_DAA) return false;
+  return c.inputMinDaa !== undefined && c.inputMinDaa !== null && c.inputMinDaa < ARCHIVE_INPUT_MIN_DAA;
+}
 
 const TICK_IGNORED = new Set(["KASPA","KASPLX","KASP","WKAS","GIGA","WBTC","WETH","USDT","USDC","FDUSD","USDD","TUSD","USDP","PYUSD","EURC","BUSD","GUSD","EURT","XAUT","TETHER"]);
 const TICK_RESERVED: Record<string, string> = {
@@ -203,6 +222,9 @@ export class Krc20Replay {
       if (pp.length) prepared = pp; // script.go 1074-1094: payload op replaces envelope ops
     }
     if (!prepared.length) return;
+    // The tx-level op is the first recorded script (opDataMap[txId].Op); its feeLeast decides the archive-input rule.
+    const first = prepared[0];
+    if ("op" in first && feeOpIgnored(first.feeLeast, first.cand)) return;
     const want = (p: (typeof prepared)[number]) => {
       if (!this.tickFilter) return true;
       const t = "op" in p ? p.params.tick : normTick(p.c.params.ca ?? p.c.params.tick);
@@ -228,7 +250,7 @@ export class Krc20Replay {
     const sp = p.params, c = p.cand;
     const tok = this.tokens.get(sp.tick);
     const feeCheck = (): string => {
-      if (c.fee === null || c.fee === 0n) return "fee unknown";
+      if (c.fee === null) return "fee unknown"; // data gap in this replay's inputs, not a go-krc20d outcome
       return c.fee < p.feeLeast ? "fee not enough" : "";
     };
     switch (p.op) {

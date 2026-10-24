@@ -13,7 +13,7 @@ import { inputAt } from "../replay/extract.js";
 
 export interface CompactTx {
   id: string; b: number; d: number; h: string; bt: number;
-  fee: string | null; no: number; o: [string, string][]; // first two outputs: [amount, address]
+  fee: string | null; mi?: number | null; no: number; o: [string, string][]; // first two outputs: [amount, address]
   c: { i: number; pay: boolean; from: string; spk: string; p: Record<string, string>; prev: string }[];
 }
 
@@ -21,6 +21,7 @@ export function toCompact(tx: RawTx, ops: OpCandidate[]): CompactTx {
   return {
     id: tx.txId, b: tx.accept.blueScore, d: tx.accept.daaScore, h: tx.accept.blockHash, bt: tx.blockTime,
     fee: ops[0]?.fee === null || ops[0]?.fee === undefined ? null : ops[0].fee.toString(),
+    ...(ops[0]?.inputMinDaa !== undefined && ops[0]?.inputMinDaa !== null ? { mi: ops[0].inputMinDaa } : {}),
     no: tx.outputs.length,
     o: tx.outputs.slice(0, 2).map((x) => [x.amount.toString(), x.address]),
     c: ops.map((op) => ({ i: op.inputIndex, pay: op.isPayload, from: op.from, spk: op.spkFrom, p: op.params, prev: inputAt(op.inputs, op.inputIndex)?.prevTxId ?? "" })),
@@ -41,6 +42,7 @@ export function fromCompact(c: CompactTx): OpCandidate[] {
     return {
       txId: c.id, daaScore: c.d, blueScore: c.b, blockTime: c.bt, inputIndex: x.i, isPayload: x.pay,
       from: x.from, spkFrom: x.spk, params: { ...x.p }, fee, outputs, inputs,
+      ...(c.mi !== undefined && c.mi !== null ? { inputMinDaa: c.mi } : {}),
     };
   });
 }

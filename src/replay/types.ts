@@ -16,6 +16,11 @@ export interface OpCandidate {
   spkFrom: string; // scriptSig of input 0 ("20"+kPub+"ac" etc.), used by list's P2SH binding check
   params: Record<string, string>; // decoded JSON, string values only (non-string forced keys -> op ignored)
   fee: bigint | null; // sum(prev amounts) - sum(outputs); null if unknown
+  /**
+   * Lowest accepting DAA score among the txs that created this tx's inputs (all inputs, not only the op's).
+   * undefined/null = not determined from the available L1 data; the archive-input rule is then not applied.
+   */
+  inputMinDaa?: number | null;
   outputs: RawOutput[];
   inputs: RawInput[];
 }
