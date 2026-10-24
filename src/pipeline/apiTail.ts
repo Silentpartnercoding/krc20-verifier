@@ -14,6 +14,8 @@
  *     via acceptanceFromApi (exact DAA near rule boundaries, interpolated elsewhere and flagged), extract
  *     ops and write compact candidate lines in prep.ts format. Writes DIR/tail_candidates.unsorted.tsv.gz,
  *     DIR/tail_acceptance.tsv (txId accepted block blue daa daaExact acceptingBlockTime), DIR/tail_stats.json.
+ *     --exact-daa: fetch every accepting block header (no interpolation). Run tailDaa.ts first so they are all
+ *     cached, then add --offline so an uncached block fails instead of hitting the network.
  */
 import { createWriteStream, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { createGzip } from "node:zlib";
@@ -46,14 +48,14 @@ export async function status(api: KaspaApi, ids: string[], outPath: string) {
   return st;
 }
 
-export async function tail(api: KaspaApi, ids: string[], outDir: string) {
+export async function tail(api: KaspaApi, ids: string[], outDir: string, exactAll = false) {
   mkdirSync(outDir, { recursive: true });
   const fetched: any[] = [];
   for (let i = 0; i < ids.length; i += 1000) {
     fetched.push(...(await api.searchTransactions(ids.slice(i, i + 1000), { resolve: "full" })));
     log(`tail fetched ${Math.min(i + 1000, ids.length)}/${ids.length}`);
   }
-  const acc = await acceptanceFromApi(api, ids, 50_000, log);
+  const acc = await acceptanceFromApi(api, ids, 50_000, log, exactAll);
   const gz = createGzip({ level: 1 }), file = createWriteStream(`${outDir}/tail_candidates.unsorted.tsv.gz`);
   gz.pipe(file);
   const accRows: string[] = [];
@@ -85,6 +87,6 @@ export async function tail(api: KaspaApi, ids: string[], outDir: string) {
 if (process.argv[1]?.endsWith("apiTail.ts")) {
   const api = new KaspaApi({ offline: process.argv.includes("--offline") });
   const ids = readIds(arg("ids")!);
-  const p = arg("mode") === "status" ? status(api, ids, arg("out")!) : tail(api, ids, arg("out")!);
+  const p = arg("mode") === "status" ? status(api, ids, arg("out")!) : tail(api, ids, arg("out")!, process.argv.includes("--exact-daa"));
   p.then((s) => log(JSON.stringify({ ...s, apiNetworkCalls: api.networkCalls }))).catch((e) => { console.error(e); process.exit(1); });
 }

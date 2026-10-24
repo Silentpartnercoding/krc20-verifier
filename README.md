@@ -82,7 +82,7 @@ TICK=NACHO OUT=data/kasplex/NACHO npm run kasplex:pull
 npx tsx src/pipeline/prep.ts --inputs inputs_sorted.tsv.gz --outputs outputs_sorted.tsv.gz --acc acc_by_tx.tsv.gz --fee-inputs fee_inputs.tsv --out data/prep
 npx tsx src/pipeline/apiTail.ts --mode tail --ids tail_ids.txt --out data/tail
 zcat data/prep/candidates.unsorted.tsv.gz data/tail/tail_candidates.unsorted.tsv.gz | LC_ALL=C sort -k1,1 -k2,2 | gzip > cands.sorted.tsv.gz
-npx tsx src/pipeline/run.ts --cands cands.sorted.tsv.gz --out data/replay/run
+npx tsx src/pipeline/run.ts --cands cands.sorted.tsv.gz --out data/replay/run --order txid   # see "State hashes" for --order node
 
 # 4. compare, holders, cascade
 npx tsx src/pipeline/claimTsv.ts --claim data/kasplex/NACHO --out claim.tsv.gz   # then sort by tx id / by opScore
@@ -103,6 +103,68 @@ Expected NACHO result (Kasplex pull of 2026-10-20):
 - With 80d736ba: all 10,385,075 Kasplex ops are matched. 317 differ (replay rejects, Kasplex accepts):
   260 transfers, 29 lists, 27 sends and 1 mint. 144 holders differ.
 - Without 80d736ba: an exact match on ops, all 63,667 holders, balances and locked amounts.
+
+## State hashes (`krc20-sh-v1`)
+
+I wanted a way to compare my replay with Kasplex (or with any other KRC-20 indexer) one accepting chain
+block at a time instead of diffing whole balance tables. So I borrowed the idea from Bitcoin's OPI: one
+event hash per unit plus a cumulative hash chained across units. Two indexers then compare one 64-char
+string per unit, and the first mismatch points at the exact chain block where they diverge. The format,
+its choices and its blind spots are in [`docs/state-hashes.md`](docs/state-hashes.md).
+
+In short:
+
+- A unit is one accepting chain block, keyed by its exact DAA score. Only accepted ops become events.
+- `unitHash = sha256("krc20-sh-v1;" + daa + "|" + event_1 + "|" + ... )` and
+  `cumulative = sha256(prevCumulative + unitHash)`.
+- At the end of a run I also hash the balance table (`krc20-sh-v1-balances`) and the open orders
+  (`krc20-sh-v1-markets`).
+
+Commands:
+
+```
+# replay side: one row per unit (daa nEvents unitHash cumulative chainBlock), plus balance/market hashes in run_summary.json
+npx tsx src/pipeline/run.ts --cands cands.sorted.tsv.gz --out data/replay/run \
+   --order node --accept-order accept_order.tsv --state-hashes data/replay/run/units.tsv.gz
+
+# claim side: the same chain computed from Kasplex's own op records (claim data, not ground truth)
+python3 tools/kasplex_claim_sorted.py data/kasplex/NACHO/ops claim_sorted.tsv.gz
+npx tsx src/pipeline/claimHashes.ts --claim claim_sorted.tsv.gz --out data/claim_units.tsv.gz \
+   --deploy data/kasplex/NACHO/token.json --holders data/claimledger/claim_ledger_holders.tsv
+
+# first diverging unit (it shows where two inputs agree, not whether either is right)
+npx tsx src/pipeline/hashCompare.ts --a data/replay/run/units.tsv.gz --b data/claim_units.tsv.gz --out hash_compare.json
+
+# Kasplex's own per-op checkpoint, recomputed offline (only before DAA 408,300,500)
+SEND_ORDERS=send_orders.tsv python3 tools/kasplex_checkpoint_links.py claim_sorted.tsv.gz \
+   data/kasplex/NACHO/token.json data/replay/run/units.tsv.gz data/checkpoints
+```
+
+In-unit order. Kasplex sorts a chain block's ops by txid below DAA 110,165,000 and keeps the node's
+accepted-transaction order from there on (go-krc20d @ a9754ff, `sequencer/archive.go`). `--order node`
+(the default) does the same. It needs an accept-order file (`chainBlock daa txid position`). I build it
+from api.kaspa.org's `/virtual-chain` endpoint, which lists each chain block's accepted transactions in
+acceptance order: `tools/vchain_fetch.py` fetches the pages (resumable, one request at a time, cached by
+page in `done.txt`) and `tools/vchain_order.py` turns them into the accept-order file. The block endpoint
+is not enough for this: its `transactionIds` list comes back sorted by txid, so the position of a
+transaction inside its block is lost. For a small number of chain blocks the `/virtual-chain` list itself
+appears to be in txid order rather than acceptance order, and there the order I get can still differ from
+Kasplex's. `--order txid` sorts by txid everywhere, which is the order the
+results above were produced with. Units with more than one op that are missing from the accept-order
+file fall back to txid order and are counted in
+`orderFallbackUnits`.
+
+`send_orders.tsv` (`txid  inputIndex  prevTxId`) tells the checkpoint script which list order each send
+consumed. `send.lua` keys the order by the previous tx id of input `op.index`, and Kasplex's op records
+don't carry it, so it has to come from L1.
+
+Exact DAA. The API tail only has exact DAA scores near rule boundaries, and everything else is
+interpolated. An interpolated DAA can put an op in the wrong unit. `src/pipeline/tailDaa.ts` fetches
+the header of every tail accepting block (cached, resumable, rate-limited), and then
+`apiTail.ts --mode tail --exact-daa --offline` rebuilds the tail with exact DAAs from that cache.
+
+Tests: `test/stateHash.test.ts` checks the hasher against vectors I computed independently with Python
+`hashlib`, and `test/order.test.ts` covers the order split.
 
 ## Caveats
 

@@ -17,7 +17,7 @@ import type { Acceptance } from "./types.js";
 
 export const BOUNDARIES = [RANGE.krcMinA, RANGE.krcMaxA, RANGE.krcMinB, RANGE.listSend, RANGE.burnChown, HF_DAA_2026Q1];
 
-export async function acceptanceFromApi(api: KaspaApi, txIds: string[], marginDaa = 50_000, log = (_: string) => {}): Promise<{ map: Map<string, Acceptance>; missing: string[] }> {
+export async function acceptanceFromApi(api: KaspaApi, txIds: string[], marginDaa = 50_000, log = (_: string) => {}, exactAll = false): Promise<{ map: Map<string, Acceptance>; missing: string[] }> {
   const raw = new Map<string, { hash: string; blue: number }>();
   for (let i = 0; i < txIds.length; i += 1000) {
     const res = await api.searchTransactions(txIds.slice(i, i + 1000), { resolve: "no", acceptance: "accepted" });
@@ -45,7 +45,7 @@ export async function acceptanceFromApi(api: KaspaApi, txIds: string[], marginDa
   const exactByHash = new Map<string, number>();
   for (const [id, e] of raw) {
     let daa = anchors.get(e.blue) ?? interp(e.blue), isExact = anchors.has(e.blue);
-    if (!isExact && BOUNDARIES.some((b) => Math.abs(daa - b) <= marginDaa)) {
+    if (!isExact && (exactAll || BOUNDARIES.some((b) => Math.abs(daa - b) <= marginDaa))) {
       daa = exactByHash.get(e.hash) ?? (await exact(e));
       exactByHash.set(e.hash, daa);
       isExact = true;

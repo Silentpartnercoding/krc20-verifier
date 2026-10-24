@@ -40,7 +40,7 @@ describe("streaming pipeline (prep -> run -> compare)", () => {
     expect(cand).toHaveLength(1);
     expect(cand[0].startsWith("000081837258\t" + t.transaction_id + "\t")).toBe(true);
     writeFileSync(join(dir, "cand.gz"), gzipSync(cand.join("\n") + "\n"));
-    const rs = await runReplay(join(dir, "cand.gz"), join(dir, "run"));
+    const rs = await runReplay(join(dir, "cand.gz"), join(dir, "run"), "NACHO", undefined, "txid");
     expect(rs.byOpAccept).toEqual({ "deploy|accept": 1 });
     expect(rs.token).toMatchObject({ max: "28700000000000000000", lim: "2870000000000", minted: "0" });
     const res = gzLines(join(dir, "run", "results.tsv.gz"));

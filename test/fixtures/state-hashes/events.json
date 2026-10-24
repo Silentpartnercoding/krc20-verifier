@@ -1,0 +1,14 @@
+{
+ "_note": "Tiny synthetic fixture (not chain data). Addresses/txids are placeholders.",
+ "units": [
+  {"daa": 100, "chainBlock": "b100", "events": [
+   {"op":"deploy","txId":"t1","tick":"abc","from":"kaspa:qa","to":"kaspa:qa","max":"1000","lim":"100","pre":"0","dec":"8"},
+   {"op":"mint","txId":"t2","tick":"ABC","to":"kaspa:qa","amt":"100"}]},
+  {"daa": 105, "chainBlock": "b105", "events": [
+   {"op":"mint","txId":"t3","tick":"ABC","to":"kaspa:qb","amt":"100"},
+   {"op":"transfer","txId":"t4","tick":"ABC","from":"kaspa:qa","to":"kaspa:qb","amt":"40"}]},
+  {"daa": 107, "chainBlock": "b107", "events": [
+   {"op":"list","txId":"t5","tick":"ABC","from":"kaspa:qb","amt":"50","utxo":"t5_kaspa:pq_100000"},
+   {"op":"send","txId":"t6","tick":"ABC","from":"kaspa:qb","to":"kaspa:qa","amt":"50"}]}
+ ]
+}

@@ -42,6 +42,7 @@ export class KaspaApi {
           method,
           headers: { "user-agent": UA, accept: "application/json", ...(body ? { "content-type": "application/json" } : {}) },
           body: body ? bodyStr : undefined,
+          signal: AbortSignal.timeout(60_000), // a frozen socket must fail and retry, not hang
         });
         if (res.status === 429 || res.status >= 500) throw new Error(`HTTP ${res.status}`);
         if (!res.ok) throw new Error(`HTTP ${res.status}: ${(await res.text()).slice(0, 200)}`);
