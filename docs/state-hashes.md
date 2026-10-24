@@ -224,7 +224,9 @@ every alternative below is either already a flag or a version bump.
   sorted by txid, so in-block position is lost [V: checked against block responses].
   Caveat: for a few chain blocks the `/virtual-chain` order and Kasplex's order differ, usually as the
   exact reverse; in all but one of them the `/virtual-chain` list is in ascending txid order. I know of no other free source for the true
-  order there, so those units remain an open difference [I].
+  order there, so those units remain an open difference [I]. For NACHO there are 74 such units; they
+  are listed in `test/fixtures/order_gap_units_74.tsv` (DAA, chain block, both orders, Kasplex opScores;
+  checked by `test/orderGapData.test.ts`).
 - **8. Exact DAA: required.** A unit key must be the accepting chain block's own DAA score. Interpolated
   DAAs are a replay-input defect, not a format choice. The comparison reports units whose DAA came from
   interpolation separately, and `src/pipeline/apiTail.ts --exact-daa` replaces them with header lookups.
