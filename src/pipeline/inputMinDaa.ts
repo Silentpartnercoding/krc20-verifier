@@ -2,23 +2,26 @@
  * Annotate compact candidate lines with the lowest input-creation DAA of each tx (field `mi`), so the engine can apply
  * the archive-input rule (ARCHIVE_INPUT_MIN_DAA in src/replay/krc20.ts).
  *   tsx src/pipeline/inputMinDaa.ts --cands cands.sorted.tsv.gz --mi tx_min_input_daa.tsv --out cands.mi.sorted.tsv.gz
- * --mi: `txId\tminInputDaa` (plain hex txId, decimal DAA): for each tx, the minimum accepting DAA score over the txs
+ * --mi: `txId\tminInputDaa` (optionally .gz; repeated txIds allowed, the minimum is kept) (plain hex txId, decimal DAA): for each tx, the minimum accepting DAA score over the txs
  *       that created ALL of its inputs (not only the op's input). Built from L1 data; txs absent from the file keep
  *       no `mi` and the rule is not applied to them. Line order is preserved, so the output stays sorted.
  */
-import { createReadStream, createWriteStream, readFileSync } from "node:fs";
+import { createReadStream, createWriteStream } from "node:fs";
 import { createGunzip, createGzip } from "node:zlib";
 import { createInterface } from "node:readline";
 
-export function loadMinInputDaa(path: string): Map<string, number> {
+/** Streams the file (it can have ~11M rows); repeated txIds keep the minimum. */
+export async function loadMinInputDaa(path: string): Promise<Map<string, number>> {
   const m = new Map<string, number>();
-  for (const line of readFileSync(path, "utf8").split("\n")) {
+  const src = createReadStream(path);
+  const rl = createInterface({ input: path.endsWith(".gz") ? src.pipe(createGunzip()) : src, crlfDelay: Infinity });
+  for await (const line of rl) {
     const [id, d] = line.split("\t");
     if (!id || d === undefined || d === "") continue;
     const n = Number(d);
     if (!Number.isSafeInteger(n) || n < 0) throw new Error(`bad DAA for ${id}: ${d}`);
     const prev = m.get(id);
-    m.set(id, prev === undefined ? n : Math.min(prev, n));
+    if (prev === undefined || n < prev) m.set(id, n);
   }
   return m;
 }
@@ -35,7 +38,7 @@ export function annotateLine(line: string, mi: Map<string, number>): { line: str
 
 const arg = (k: string) => { const i = process.argv.indexOf(`--${k}`); return i > 0 ? process.argv[i + 1] : undefined; };
 if (process.argv[1]?.endsWith("inputMinDaa.ts")) {
-  const cands = arg("cands")!, out = arg("out")!, mi = loadMinInputDaa(arg("mi")!);
+  const cands = arg("cands")!, out = arg("out")!, mi = await loadMinInputDaa(arg("mi")!);
   const src = createReadStream(cands);
   const rl = createInterface({ input: cands.endsWith(".gz") ? src.pipe(createGunzip()) : src, crlfDelay: Infinity });
   const gz = createGzip({ level: 1 }); const file = createWriteStream(out); gz.pipe(file);
