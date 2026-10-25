@@ -218,14 +218,17 @@ every alternative below is either already a flag or a version bump.
   to execution order, and so does Kasplex: go-krc20d sorts by txid only below DAA 110,165,000 and uses
   the node's accepted-transaction order from there on (`sequencer/archive.go` L355, L461 @ a9754ff)
   [V]. The verifier implements exactly that split (`src/pipeline/run.ts`, `NODE_ORDER_DAA`).
-  I take the node order from api.kaspa.org `/virtual-chain`, which lists each chain block's accepted
-  transactions in acceptance order (`tools/vchain_fetch.py`, `tools/vchain_order.py`). Rebuilding it
-  from mergesets alone does not work for older blocks: the block endpoint returns `transactionIds`
-  sorted by txid, so in-block position is lost [V: checked against block responses].
-  Caveat: for a few chain blocks the `/virtual-chain` order and Kasplex's order differ, usually as the
-  exact reverse; in all but one of them the `/virtual-chain` list is in ascending txid order. I know of no other free source for the true
-  order there, so those units remain an open difference [I]. For NACHO there are 74 such units; they
-  are listed in `test/fixtures/order_gap_units_74.tsv` (DAA, chain block, both orders, Kasplex opScores;
+  I take an approximation of the node order from api.kaspa.org `/virtual-chain`
+  (`tools/vchain_fetch.py`, `tools/vchain_order.py`). That list is not acceptance order: for 73 of the
+  74 NACHO order-gap units it is in ascending txid order. Rebuilding from mergesets alone does not work
+  either: the block endpoint returns `transactionIds` sorted by txid [V: checked against block responses].
+  Checked against block headers (since KIP-15 `acceptedIdMerkleRoot` commits to accepted txids in
+  acceptance order), Kasplex's order equals the node's acceptance order in all 11 units that could be
+  checked (8 by exact header match, 3 by mergeset order) and the `/virtual-chain` order matched none [V].
+  The other 63 cannot be checked from headers (post-Toccata headers carry the KIP-21 `seq_commit`, or the
+  unit is too large to search) and need an archival node or Kasplex's archive data [I]. So, as far as
+  it can be checked, the gaps are an input defect on the verifier side, not a Kasplex difference. The
+  74 units are listed in `test/fixtures/order_gap_units_74.tsv` (DAA, chain block, both orders, Kasplex opScores;
   checked by `test/orderGapData.test.ts`).
 - **8. Exact DAA: required.** A unit key must be the accepting chain block's own DAA score. Interpolated
   DAAs are a replay-input defect, not a format choice. The comparison reports units whose DAA came from

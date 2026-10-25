@@ -143,13 +143,15 @@ SEND_ORDERS=send_orders.tsv python3 tools/kasplex_checkpoint_links.py claim_sort
 In-unit order. Kasplex sorts a chain block's ops by txid below DAA 110,165,000 and keeps the node's
 accepted-transaction order from there on (go-krc20d @ a9754ff, `sequencer/archive.go`). `--order node`
 (the default) does the same. It needs an accept-order file (`chainBlock daa txid position`). I build it
-from api.kaspa.org's `/virtual-chain` endpoint, which lists each chain block's accepted transactions in
-acceptance order: `tools/vchain_fetch.py` fetches the pages (resumable, one request at a time, cached by
-page in `done.txt`) and `tools/vchain_order.py` turns them into the accept-order file. The block endpoint
-is not enough for this: its `transactionIds` list comes back sorted by txid, so the position of a
-transaction inside its block is lost. For a small number of chain blocks the `/virtual-chain` list itself
-appears to be in txid order rather than acceptance order, and there the order I get can still differ from
-Kasplex's. `--order txid` sorts by txid everywhere, which is the order the
+from api.kaspa.org's `/virtual-chain` endpoint: `tools/vchain_fetch.py` fetches the pages (resumable, one
+request at a time, cached by page in `done.txt`) and `tools/vchain_order.py` turns them into the accept-order
+file. That endpoint is not a reliable source of acceptance order. For the 74 NACHO order-gap units its list
+is in ascending txid order in 73 cases, and checking against block headers (since KIP-15 a chain block's
+`acceptedIdMerkleRoot` commits to its accepted txids in acceptance order) showed Kasplex's order is the
+node's acceptance order in every unit that could be checked (11 of 74), while the `/virtual-chain` order
+matched none of them. As far as it can be checked, the gaps come from this input, not from Kasplex. The block endpoint is not
+enough either: its `transactionIds` list comes back sorted by txid.
+`--order txid` sorts by txid everywhere, which is the order the
 results above were produced with. Units with more than one op that are missing from the accept-order
 file fall back to txid order and are counted in
 `orderFallbackUnits`.
