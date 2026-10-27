@@ -218,6 +218,10 @@ every alternative below is either already a flag or a version bump.
   to execution order, and so does Kasplex: go-krc20d sorts by txid only below DAA 110,165,000 and uses
   the node's accepted-transaction order from there on (`sequencer/archive.go` L355, L461 @ a9754ff)
   [V]. The verifier implements exactly that split (`src/pipeline/run.ts`, `NODE_ORDER_DAA`).
+  Kasplex maintainer 5bb55b confirmed on 2026-10-26 that for DAA ≥ 110,165,000 the canonical in-block
+  order is the node's VSPC `acceptedTransactionIds` order
+  ([go-krc20d#1](https://github.com/kasplex/go-krc20d/issues/1#issuecomment-6410749352)); `/v1/archive/vspc`
+  is permanently retired, and Kasplex plans an S3 export of archive backups instead.
   I take an approximation of the node order from api.kaspa.org `/virtual-chain`
   (`tools/vchain_fetch.py`, `tools/vchain_order.py`). That list is not acceptance order: for 73 of the
   74 NACHO order-gap units it is in ascending txid order. Rebuilding from mergesets alone does not work
