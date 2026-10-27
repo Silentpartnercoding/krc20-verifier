@@ -170,8 +170,13 @@ Tests: `test/stateHash.test.ts` checks the hasher against vectors I computed ind
 
 ## Caveats
 
-- **Tie-break.** Ops inside one accepting block are ordered by tx id. Kasplex appears to do the same (lexicographic
-  txid), but the node's acceptance order is not in the dump.
+- **Tie-break.** Inside one accepting block, Kasplex orders ops by tx id below DAA 110,165,000 (its KIP-15
+  adjustment) and by the node's VSPC `acceptedTransactionIds` order from there on, which Kasplex
+  [confirmed](https://github.com/kasplex/go-krc20d/issues/1#issuecomment-6410749352). `--order node` (the default)
+  applies that split, but it takes the post-110,165,000 order from an accept-order file, and the only builder here
+  (`tools/vchain_order.py`) reads api.kaspa.org `/virtual-chain`, which lists txids in ascending order. A faithful
+  replay needs that file built from a node's acceptance order. Units missing from the file fall back to tx-id order
+  and are counted in `orderFallbackUnits`.
 - **Rules version.** The rules are the current open-source go-krc20d @a9754ffd, which is not necessarily the binary
   Kasplex ran at every point in history.
 - **Omissions after the dump cannot be seen.** For the post-dump tail, the tx id list comes from Kasplex. An op that

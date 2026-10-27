@@ -193,7 +193,7 @@ every alternative below is either already a flag or a version bump.
 - **1. Dense vs sparse: sparse (default).** OPI hashes every Bitcoin block, about 144 a day. Kaspa
   has at least one chain block a second (§2), so a dense chain would be at least ~86k units a day,
   almost all of them empty for any one tick [I], and would require the full chain-block list from a node or from Kasplex's
-  `/v1/archive/vspc` [V: route exists, fields unchecked]. Because the DAA is inside every unit string,
+  `/v1/archive/vspc`, which Kasplex has permanently disabled (an S3 export of archive backups is planned). Because the DAA is inside every unit string,
   a sparse chain still changes when an event moves between units, which is the property OPI's density
   buys. Divergence from OPI: deliberate. A dense mode would be `krc20-sh-v1-dense`, not a flag on v1.
 - **2. send order id: not in v1 events.** Kasplex op records do not carry it, so including it would make
