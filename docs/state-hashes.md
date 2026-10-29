@@ -49,7 +49,8 @@ Ordering:
 - Units are in strictly increasing accepting DAA (enforced; out-of-order input throws).
 - Events inside a unit are in execution order, i.e. Kasplex's opScore index: txid order for accepting
   DAA < 110,165,000 and the node's accepted-transaction order from there on [V: go-krc20d
-  `sequencer/archive.go` L355/L461 @ a9754ff]. My replay reproduces that by default (`--order node`,
+  `sequencer/archive.go` L355/L461 @ a9754ff; documented in the
+  [go-krc20d README, Transaction Ordering](https://github.com/kasplex/go-krc20d/blob/6d21c8668bd77db6d89f28560cc37aaa205f8517/README.md#transaction-ordering)]. My replay reproduces that by default (`--order node`,
   with an accept-order file); `--order txid` keeps the old txid-only order (choice 7).
 - Only accepted ops become events. Rejected ops are not hashed.
 
@@ -218,9 +219,11 @@ every alternative below is either already a flag or a version bump.
   to execution order, and so does Kasplex: go-krc20d sorts by txid only below DAA 110,165,000 and uses
   the node's accepted-transaction order from there on (`sequencer/archive.go` L355, L461 @ a9754ff)
   [V]. The verifier implements exactly that split (`src/pipeline/run.ts`, `NODE_ORDER_DAA`).
-  Kasplex maintainer 5bb55b confirmed on 2026-10-26 that for DAA ≥ 110,165,000 the canonical in-block
-  order is the node's VSPC `acceptedTransactionIds` order
-  ([go-krc20d#1](https://github.com/kasplex/go-krc20d/issues/1#issuecomment-6410749352)); `/v1/archive/vspc`
+  Kasplex documents this rule in the go-krc20d README
+  ([Transaction Ordering](https://github.com/kasplex/go-krc20d/blob/6d21c8668bd77db6d89f28560cc37aaa205f8517/README.md#transaction-ordering), merged 2026-10-28): txids sorted ascending below DAA 110,165,000,
+  and the node's VSPC `acceptedTransactionIds` order (selected parent first, then the mergeset in
+  consensus order) from there on. Maintainer 5bb55b first confirmed it on 2026-10-26
+  ([go-krc20d#1](https://github.com/kasplex/go-krc20d/issues/1#issuecomment-6410749352)). `/v1/archive/vspc`
   is permanently retired, and Kasplex plans an S3 export of archive backups instead.
   I take an approximation of the node order from api.kaspa.org `/virtual-chain`
   (`tools/vchain_fetch.py`, `tools/vchain_order.py`). That list is not acceptance order: for 73 of the

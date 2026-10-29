@@ -25,7 +25,8 @@ L1-accepted, rules-valid mint (`80d736ba…`) that Kasplex never indexed. The wr
 4. **Tail** (`src/pipeline/apiTail.ts`). Ops after the dump's end are fetched from api.kaspa.org. The claim only
    says *which* tx ids to fetch. Content and acceptance come from L1.
 5. **Replay** (`src/pipeline/run.ts`, rules in `src/replay/krc20.ts`). Applies deploy/mint/transfer/list/send/
-   burn/chown in accepting-block order (blue score, then tx id), with the go-krc20d @a9754ffd rules: daaScore
+   burn/chown in accepting-block order (blue score, then Kasplex's documented in-block order; see In-unit order
+   below), with the go-krc20d @a9754ffd rules: daaScore
    windows, the input-0 gate, fee minimums, the `outputs[0]` recipient rule at DAA ≤ 83,525,600, the list/send
    UTXO rules, and the parser switch at DAA 97,539,090. Writes per-op results, holders (balance, locked) and open
    orders.
@@ -141,7 +142,8 @@ SEND_ORDERS=send_orders.tsv python3 tools/kasplex_checkpoint_links.py claim_sort
 ```
 
 In-unit order. Kasplex sorts a chain block's ops by txid below DAA 110,165,000 and keeps the node's
-accepted-transaction order from there on (go-krc20d @ a9754ff, `sequencer/archive.go`). `--order node`
+accepted-transaction order from there on. This is Kasplex's documented rule
+([go-krc20d README, Transaction Ordering](https://github.com/kasplex/go-krc20d/blob/6d21c8668bd77db6d89f28560cc37aaa205f8517/README.md#transaction-ordering); code in `sequencer/archive.go` @ a9754ff). `--order node`
 (the default) does the same. It needs an accept-order file (`chainBlock daa txid position`). I build it
 from api.kaspa.org's `/virtual-chain` endpoint: `tools/vchain_fetch.py` fetches the pages (resumable, one
 request at a time, cached by page in `done.txt`) and `tools/vchain_order.py` turns them into the accept-order
@@ -170,10 +172,11 @@ Tests: `test/stateHash.test.ts` checks the hasher against vectors I computed ind
 
 ## Caveats
 
-- **Tie-break.** Inside one accepting block, Kasplex orders ops by tx id below DAA 110,165,000 (its KIP-15
-  adjustment) and by the node's VSPC `acceptedTransactionIds` order from there on, which Kasplex
-  [confirmed](https://github.com/kasplex/go-krc20d/issues/1#issuecomment-6410749352). `--order node` (the default)
-  applies that split, but it takes the post-110,165,000 order from an accept-order file, and the only builder here
+- **In-block order input.** Inside one accepting block, Kasplex orders ops by tx id below DAA 110,165,000 (its
+  KIP-15 adjustment) and by the node's VSPC `acceptedTransactionIds` order from there on. Kasplex documents this
+  rule in the [go-krc20d README, Transaction Ordering](https://github.com/kasplex/go-krc20d/blob/6d21c8668bd77db6d89f28560cc37aaa205f8517/README.md#transaction-ordering) (merged 2026-10-28; first
+  [confirmed in go-krc20d#1](https://github.com/kasplex/go-krc20d/issues/1#issuecomment-6410749352)). `--order node`
+  (the default) applies that split, but it takes the post-110,165,000 order from an accept-order file, and the only builder here
   (`tools/vchain_order.py`) reads api.kaspa.org `/virtual-chain`, which lists txids in ascending order. A faithful
   replay needs that file built from a node's acceptance order. Units missing from the file fall back to tx-id order
   and are counted in `orderFallbackUnits`.
